@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'OpenSauceSans';
+    src: url("../../../public/Assets/fonts/OpenSauceSans-Black.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  .row {
+    display: flex;
+    justify-content: center; /* Center the row content horizontally */
+    align-items: center; /* Center the row content vertically */
+    margin-top: 10rem;
+    gap: 2rem;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  }
+  
+  .column1 {
+    float: left;
+    width: 50%;
+
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    /* max-width: 500px; Limit the max width of each column */
+    /* position: relative; Needed for the pseudo-element */
+    /* margin-bottom: 10rem; */ 
+  }
+  .column2{
+    float: right;
+    width: 30%;
+  }
+  
+  .column::after {
+    content: "";
+    position: absolute;
+    top: -5rem;
+    bottom: 0;
+    left: 100%;
+    width: 1px;
+    background-color: grey;
+    height: calc(100% + 6rem); 
+    display: block;
+    margin-left: 1rem; /* Adjust the spacing as needed */
+  }
+  
+  .column:last-child::after {
+    display: none; /* Hide the line after the last column */
+  }
+  
+  .formcontainer {
+    width: 100%; /* Ensure the container takes full width */
+    padding: 1rem;
+  }
+  
+  .inputs {
+    color: #de841e;
+    width: 100%;
+    padding-top: 0.75rem; /* py-3 */
+    padding-bottom: 0.75rem; /* py-3 */
+    padding-left: 1.5rem; /* px-6 */
+    padding-right: 1.5rem; /* px-6 */
+    font-size: 1rem; /* text-base */
+    font-weight: 500; /* font-medium */
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* focus:shadow-md */
+    background: transparent;
+    border-bottom: 2px solid #cacaca;
+  }
+  
+  .inputs:focus {
+    border-color: #de841e; /* focus:border-purple-500 */
+    box-shadow: none 
+  }
+  
+  .inputs::placeholder {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .textarea::placeholder{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .textarea {
+    color: #de841e;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500; 
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #cacaca; 
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background: transparent; /* Remove white background */
+    resize: none; /* Prevent resizing */
+  }
+  
+  .textarea:focus {
+    border-color: #de841e; /* Equivalent to focus:border-purple-500 */
+    box-shadow: none; /* Equivalent to focus:shadow-md */
+  }
+  
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem; 
+    text-align: center; 
+  }
+  
+  
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 1rem;  */
+    margin-left: 1rem;
+  }
+  
+  
+  .contactItem svg{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+  }
+  .contactItem i {
+    margin-right: 3rem; /* Increase the space between icon and text */
+  }
+  
+  .contactItem span {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 1rem; 
+  }
+  
+  
+  .heading {
+    font-family: OpenSauceSans;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 50px;
+    color: #1A1B25;
+  }
+  
+  .contactText {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3.5rem;
+    font-weight: bold;
+    color: #1A1B25;
+  }
+  
+  .buttonWrapper {
+    margin-top: 2rem; /* Add space above the button */
+    display: flex;
+    margin-bottom: 5rem;
+  }
+  
+  .imageText .headingtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: black;
+    
+  }
+  
+  .imageText .paragraph {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: black;
+  }
+  
+  .imageContainer{
+    margin-top: -3rem;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .fontColor{
+    color: #de841e;
+  }
+  
+  /* mobile devices. ipads, tablets */
+  @media (max-width: 768px) {
+    .row {
+      margin-top: 5rem; 
+    }
+  
+    .column {
+      margin-bottom: 5rem; 
+    }
+  
+    .column::after {
+      top: -3rem; 
+      height: calc(100% + 4rem); 
+    }
+  
+    .formcontainer {
+      padding: 0.5rem; 
+    }
+  
+    .inputs,
+    .textarea {
+      padding: 0.5rem 1rem; 
+      font-size: 0.9rem; 
+    }
+  
+    .contactItem {
+      margin-left: 0; 
+    }
+  
+    .contactItem svg {
+      font-size: 1rem; 
+    }
+  
+    .column::after {
+        display: none; 
+      }
+  
+    .contactItem span {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: 1rem; 
+      
+    }
+  }
+  
+  /* small screens, laptops */
+  @media (min-width:769px) and  (max-width: 1024px) {
+    .row {
+      margin-top: 5rem; 
+    }
+  
+    .column {
+      margin-bottom: 5rem; 
+    }
+  
+   
+  
+    .column::after {
+      top: -3rem; 
+      height: calc(100% + 4rem); 
+    }
+  
+    .formcontainer {
+      padding: 0.5rem; 
+    }
+  
+    .inputs,
+    .textarea {
+      padding: 0.5rem 1rem; 
+      font-size: 0.9rem; 
+    }
+  
+    .contactItem {
+      margin-left: 0; 
+    }
+  
+    .contactItem svg {
+      font-size: 1rem; 
+    }
+  
+    .column::after {
+        display: none; 
+      }
+  
+    .contactItem span {
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-size: 1rem; 
+        
+    }
+  
+    .contactItem{
+        align-items: center;
+    }
+  }
+  

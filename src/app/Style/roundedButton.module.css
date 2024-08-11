@@ -1,0 +1,67 @@
+/* Button.css */
+
+.roundedButton {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: transparent;
+    border:2px solid #de841e;
+    cursor: pointer;
+    font-size: 10px;
+    outline: none;
+    position: relative;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;  
+  }
+  
+  .roundedButton:after{
+    content: "";
+    background: #de841e;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1.2s
+  }
+  
+  .roundedButton:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .roundedButton:hover{
+    background-color:#E5E5E5;
+  }
+  
+  .text{
+    font-family: sans-serif;
+    text-wrap: nowrap;
+    font-size: medium;
+    color:#de841e;
+    margin: 1px;
+    padding: 2px;
+  }
+  
+  .text:hover{
+    font-family: sans-serif;
+    text-wrap: nowrap;
+    font-size: medium;
+    color:#fff;
+    margin: 1px;
+    padding: 2px;
+  }
+  
+  
+  

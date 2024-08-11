@@ -1,0 +1,51 @@
+.box{
+    padding: 3% 2.5%;
+    background: #f58e49;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+    grid-gap: 250px;
+}
+
+@media (max-width: 1000px) {
+    .row {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 1.5rem;
+    }
+
+}
+
+.listitems{
+    color: white;
+}
+.listitems:hover{
+    color: #1a1b25;
+}
+
+.list{
+    color:#E5E5E5;
+}
+
+.heading{
+    color:#1a1b25;
+}
+
+@media screen and (min-width: 1001px){
+    .row {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 2rem;
+    }
+
+}
+
+
+
+
+
