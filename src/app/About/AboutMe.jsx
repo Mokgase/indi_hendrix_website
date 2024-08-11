@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
 import buddah from '../../../public/Assets/images/buddah.png';
 import styles from '../Style/aboutme.module.css';
 import Image from 'next/image';
