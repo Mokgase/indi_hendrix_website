@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Style/footer.module.css";
+import Button from "../Components/Button";
 
 const Footer =() => {
     return(
@@ -47,6 +48,7 @@ const Footer =() => {
                     <h1 className={styles.heading}>Newsletter sign up</h1>
                         <ul class={styles.listitems}>
                             <input type="email" />
+                            <Button text={'Send'}/>
                         </ul>
                 </div>
             </div>
