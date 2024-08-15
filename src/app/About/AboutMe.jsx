@@ -17,10 +17,10 @@ const AboutMe = () => {
               Growing up in the vibrant landscapes of Ga-Phaahla, Limpopo, I discovered my passion for art. The rich cultural heritage and vivid colors of my surroundings ignited my creative journey, driven by an innate artistic instinct. This dynamic environment became the fertile ground for my artistic exploration and expression.
               <br/>
               <br/>
-              My distinctive visual language is inspired by Takashi Murakami's Superflat movement, Pop Art, and geometric styles. This blend results in artworks characterized by vibrant hues, bold lines, and whimsical characters, creating compositions that captivate and engage viewers.
+              My distinctive visual language is inspired by Takashi Murakami&apos;s Superflat movement, Pop Art, and geometric styles. This blend results in artworks characterized by vibrant hues, bold lines, and whimsical characters, creating compositions that captivate and engage viewers.
               <br/>
               <br/>
-              I explore various themes in my paintings, including life's appreciation, existential crises, urban living, family dynamics, and the Black experience. Each piece delves into the complexities of existence, examining the interplay between personal identity and societal norms. Through this thematic exploration, I invite viewers to contemplate the multifaceted nature of human experience.
+              I explore various themes in my paintings, including life&apos;s appreciation, existential crises, urban living, family dynamics, and the Black experience. Each piece delves into the complexities of existence, examining the interplay between personal identity and societal norms. Through this thematic exploration, I invite viewers to contemplate the multifaceted nature of human experience.
               <br/>
               <br/>
               My work has been featured in group exhibitions in Pretoria, South Africa, showcasing my burgeoning presence in the art scene. Additionally, various media outlets, including The Creative Rejects, have highlighted my unique artistic voice, affirming my contribution to contemporary art.

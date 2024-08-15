@@ -9,7 +9,7 @@ const Submitted = () => {
         <div id='submitted' className='w-full h-full'>
           <div className={styles.column}>
             <h1 className={styles.h1}>
-                Thank you! I'll be in contact soon. 
+                Thank you! I&apos;ll be in contact soon. 
             </h1>
             <div className={styles.wistia_embed}> 
             <iframe
