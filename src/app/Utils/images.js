@@ -1,5 +1,4 @@
 const homepageImages = [
-    '/Assets/images/mtn_black.png',
     '/Assets/images/Absa_black.png',
     '/Assets/images/Datafree-logo-black.png',
     '/Assets/images/puresoftware_black.png',
@@ -7,22 +6,21 @@ const homepageImages = [
   ];
 
 
-  export const  solutionsImages = [
-
+  export const  cataloguePaintings = [
     '/Assets/images/218.jpg',
     '/Assets/images/465.jpg',
     '/Assets/images/215.jpg',
 
   ];
 
-  export const partnersImages = [
+  export const cataloguePrints = [
     '/Assets/images/suse.png',
     '/Assets/images/redhat2.png',
     '/Assets/images/elastic.png',
     '/Assets/images/lenovo.png',
   ];
 
-  export const servicesImages = [
+  export const catalogueMerch = [
     
     '/Assets/images/microservices.jpg',
     '/Assets/images/managed-services.jpg',
@@ -30,6 +28,13 @@ const homepageImages = [
 
   ]
 
+  export const aboutImage = [
+    
+    '/Assets/images/microservices.jpg',
+    '/Assets/images/managed-services.jpg',
+    '/Assets/images/devsecops.jpg',
+
+  ]
 
 
   export default homepageImages;
