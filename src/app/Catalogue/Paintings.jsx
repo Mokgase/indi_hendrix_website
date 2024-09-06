@@ -1,0 +1,116 @@
+import React from 'react';
+
+const Paintings = () => {
+  return (
+    <div>
+     {/* Gallery Section */}
+      <section className="gallery">
+        <div className="row">
+          <h1>Paintings</h1>
+          <ul>
+            <a href="#" className="close"></a>
+            <li>
+              <a href="#item02">
+                
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#item02">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/3892302/contact.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#item02">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/4154721/dive--001.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a className="image" href="#item01">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/4356121/darko--dr.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a className="image" href="#item02">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/3695553/news.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a className="image" href="#item01">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/4360101/liberosis_--_12.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a className="image" href="#item01">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/3148799/technical-book.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <a className="image" href="#item01">
+                <img
+                  src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Item 01 */}
+        <div id="item01" className="port">
+          <div className="row">
+            <div className="description">
+              <h1>Item 01</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+              </p>
+            </div>
+            <img
+              src="https://cdn.dribbble.com/users/545884/screenshots/3981307/lorena2.png"
+              alt=""
+            />
+          </div>
+        </div>
+
+        {/* Item 02 */}
+        <div id="item02" className="port">
+          <div className="row">
+            <div className="description">
+              <h1>Item 02</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis libero erat. Integer ac purus est. Proin erat mi, pulvinar ut magna eget, consectetur auctor turpis.
+              </p>
+            </div>
+            <img
+              src="https://cdn.dribbble.com/users/545884/screenshots/2883479/cover.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Paintings;

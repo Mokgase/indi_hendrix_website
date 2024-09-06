@@ -7,9 +7,16 @@ const homepageImages = [
 
 
   export const  cataloguePaintings = [
-    '/Assets/images/218.jpg',
-    '/Assets/images/465.jpg',
-    '/Assets/images/215.jpg',
+    '/Assets/images/45_Hours.png',
+    '/Assets/images/Can_I_get_a_light?.jpg',
+    '/Assets/images/Doomile.png',
+    '/Assets/images/faces-phases.jpg',
+    '/Assets/images/Fantastic_planet.jpg',
+    '/Assets/images/Father_Stretch_my_Hand',
+    '/Assets/images/Rakgolo.jpg',
+    '/Assets/images/Scrying_Mirror.jpg',
+    '/Assets/images/Testament_of_unkillable_gods.png',
+    '/Assets/images/This_depressions_not_a_phase.jpg',
 
   ];
 

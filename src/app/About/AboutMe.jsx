@@ -1,5 +1,5 @@
 import React from 'react';
-import buddah from '../../../public/Assets/images/buddah.png';
+import aboutImg from '../../../public/Assets/images/2.png';
 import styles from '../Style/aboutme.module.css';
 import Image from 'next/image';
 
@@ -31,7 +31,7 @@ const AboutMe = () => {
             </div>
           </div>
           <div className={styles.column2}>
-            <Image src={buddah} alt="logo" width={0} height={0} placeholder="blur" className="w-[80%] h-auto" />
+            <Image src={aboutImg} alt="logo" width={0} height={0} placeholder="blur" className="w-[80%] h-auto" />
             {/* <Image src={buddah} alt="buddah" width={0} height={0} placeholder="blur"/> */}
           </div>
         </div>
