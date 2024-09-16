@@ -8,10 +8,12 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Link from 'next/link';
 import AboutMe from '../About/AboutMe';
-import Catalogue from '../Catalogue/page';
+import Paintings from '../Catalogue/Paintings';
+import {cataloguePaintings} from '../Utils/images'
+// import Catalogue from '../Catalogue/page';
 import News from '../News/News';
 
-const Home = ({imageUrls , text}) => {
+const HomePage = ({imageUrls , text}) => {
     return (
     <div className={`w-full h-full flex flex-col justify-center items-center ${styles.noHorizontalScroll}`}> 
     <Head>
@@ -26,6 +28,8 @@ const Home = ({imageUrls , text}) => {
     </div>     
     {/* <Catalogue/> */}
 
+    <Paintings imageUrls={cataloguePaintings}/> 
+
     <AboutMe/>
 
     {/* <News/> */}
@@ -38,4 +42,4 @@ const Home = ({imageUrls , text}) => {
   );
 };
 
-export default Home;
+export default HomePage;
