@@ -13,7 +13,7 @@ import {cataloguePaintings} from '../Utils/images'
 // import Catalogue from '../Catalogue/page';
 import News from '../News/News';
 
-const HomePage = ({imageUrls , text}) => {
+const HomePage = () => {
     return (
     <div className={`w-full h-full flex flex-col justify-center items-center ${styles.noHorizontalScroll}`}> 
     <Head>
