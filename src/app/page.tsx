@@ -13,7 +13,7 @@ export default function Home() {
     // Simulate a delay to showcase the loader
     const delay = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // Adjust the delay to match your animation duration
+    }, 1000); // Adjust the delay to match your animation duration
 
     // Clean up function to clear the timeout
     return () => clearTimeout(delay);
@@ -26,7 +26,6 @@ export default function Home() {
         <LoadingScreen onLoadingComplete={() => setIsLoading(false)} /> // Show loader if isLoading is true
       ) : (
         <HomePage /> // Show LandingPage once loading is complete
-
       )}
     </div>
   );

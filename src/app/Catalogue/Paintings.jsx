@@ -6,17 +6,15 @@ import styles from '../Style/paintings.module.css'
 const Paintings =({imageUrls}) => {
   return(
     <div className={styles.container}>
-      <div className={styles.row}>
-        <div className={styles.column}>
+      <div class="grid grid-cols-3 gap-24">
       {imageUrls.map((imageUrl, index)=>(
-        <Image src={imageUrl} key={index}
-        alt={`Image ${index}`}
-        width={150}
-        height={50}
+        <Image className={styles.image} src={imageUrl} key={index}
+        alt={`Image ${index}`} 
+        width={250}
+        height={150}
         />
       ))}
         </div>
-      </div>
     </div>
 
   )

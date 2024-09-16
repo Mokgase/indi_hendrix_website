@@ -1,10 +1,3 @@
-const homepageImages = [
-    '/Assets/images/Absa_black.png',
-    '/Assets/images/Datafree-logo-black.png',
-    '/Assets/images/puresoftware_black.png',
-    '/Assets/images/NBC_LOGO_black.png',
-  ];
-
 
   export const  cataloguePaintings = [
     '/Assets/images/45_Hours.png',
@@ -44,5 +37,3 @@ const homepageImages = [
   ]
 
 
-  export default homepageImages;
-  

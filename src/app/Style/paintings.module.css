@@ -1,16 +1,18 @@
-.container{
+/* .container{
   display: grid;
-  grid-gap: 50px;
-  grid-template-columns: 10fr 1fr 1fr;
-  grid-template-rows: 5fr 5fr 5fr;
-}
+  /* grid-gap: 50px; */
+  /* grid-template-columns: 10fr 1fr 1fr; */
+  /* grid-template-rows: 5fr 5fr 5fr; */
+/* } */ 
+
+
 
 /* .column{
-  
+  column-gap: 50px;
 }
 
 .row{
-
+  row-gap: 50px;
 } */
 
 /* Transition
