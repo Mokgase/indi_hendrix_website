@@ -10,7 +10,6 @@
     '/Assets/images/Scrying_Mirror.jpg',
     '/Assets/images/Testament_of_unkillable_gods.png',
     '/Assets/images/This_depressions_not_a_phase.jpg',
-
   ];
 
   export const cataloguePrints = [

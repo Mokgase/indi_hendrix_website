@@ -33,15 +33,16 @@ const Contact = () => {
   return ( 
     <div id='contact' className='mt-10'>
         <div className={styles.column1}>
-            <div className='mb-12'>
-            <Image
-              src={contactImage}
-              alt='contact image'
-              width={500}
-              height={0}
-              className='min-w-min m-1 p-1'
-            />
+            <div className= "w-[50%] h-auto">
+              <Image className={styles.img}
+                src={contactImage}
+                alt='contact image'
+                width={500}
+                height={0}
+
+              />
             </div>
+            {/* </div> */}
         </div>
 
         <div className={styles.column2}>
@@ -49,7 +50,7 @@ const Contact = () => {
           {/* onSubmit={handleSubmit} */}
           <form ref={form} onSubmit={sendEmail}> 
               <div className='mb-5'>
-              <label>Name</label>
+              <label className={styles.labels}>Name</label>
                 <input 
                   required
                   type="text" 
@@ -58,7 +59,7 @@ const Contact = () => {
                   placeholder='Full name'
                   className={styles.inputs}
                    />
-                <label>Email</label>
+                <label className={styles.labels}>Email</label>
                 <input 
                   required
                   type="email" 
@@ -67,7 +68,7 @@ const Contact = () => {
                   placeholder='Email'
                   className={styles.inputs}
                   />
-                <label>Mobile Number</label>
+                <label className={styles.labels}>Mobile Number</label>
                 <input
                   required
                   type='mobile'
@@ -76,7 +77,7 @@ const Contact = () => {
                   placeholder="Mobile number"
                   className={styles.inputs}
                 />
-                <label>Message</label>
+                <label className={styles.labels}>Message</label>
                 <textarea 
                   required
                   name="message" 

@@ -39,7 +39,7 @@
     bottom: 0;
     left: 100%;
     width: 1px;
-    background-color: grey;
+    background-color: rgb(250, 216, 193);
     height: calc(100% + 6rem); 
     display: block;
     margin-left: 1rem; /* Adjust the spacing as needed */
@@ -52,8 +52,17 @@
   .formcontainer {
     width: 100%; /* Ensure the container takes full width */
     padding: 1rem;
+    margin-left: -200px;
   }
-  
+
+  .img{
+    margin-left: 200px;
+  }
+
+.labels{
+  color: #de841e;
+}
+
   .inputs {
     color: #de841e;
     width: 100%;

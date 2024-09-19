@@ -28,7 +28,8 @@ const HomePage = () => {
     </div>     
     {/* <Catalogue/> */}
 
-    <Paintings imageUrls={cataloguePaintings}/> 
+    <Paintings imageUrls={cataloguePaintings}/>
+     
 
     <AboutMe/>
 
