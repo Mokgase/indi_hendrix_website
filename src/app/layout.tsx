@@ -28,8 +28,8 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "InitD Website",
-  description: "InitD main and official website",
+  title: "Indi Hendrix Website",
+  description: "Indi Hendrix main and official website",
 };
 
 export default function RootLayout({
