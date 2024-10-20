@@ -1,0 +1,40 @@
+.marquee{
+    overflow:hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: -20rem;
+}
+
+.marquee_content{
+    display: inline-block;
+    animation: marquee 25s linear infinite;
+    margin-top:4rem;
+}
+
+.video_radius{
+    border-radius: 30px;
+    margin-top: 5rem;
+}
+
+.marquee_video{
+    position: relative;
+    z-index: 1;
+    margin-top: -10rem;
+    margin-bottom: -4rem;
+}
+
+.marquee_container{
+    z-index: 0;
+    margin: 100px;
+}
+
+@keyframes marquee {
+    0%{
+        transform: translateX(100%vw);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+} 

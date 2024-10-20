@@ -12,6 +12,8 @@ import Paintings from '../Catalogue/Paintings';
 import {cataloguePaintings} from '../Utils/images'
 // import Catalogue from '../Catalogue/page';
 import News from '../News/News';
+import Marquee from '../Components/Marquee';
+import style from '../Style/marquee.module.css';
 
 const HomePage = () => {
     return (
@@ -20,12 +22,21 @@ const HomePage = () => {
         <title>Homepage</title>
         <meta name="Homepage" content="This is the Homepage as know as Landing page" />
     </Head>
-    <div className="container">
+    <iframe
+          className={style.video_radius}
+          allow='fullscreen:autoplay'
+          allowFullScreen
+          src='https://www.youtube.com/embed/6ZyltnbnE6g?si=i2lm92kAc_C5JAcV?autoplay=1&nocontrols=1'
+          width='900'
+          height='500'
+        ></iframe>
+    <Marquee/>
+    {/* <div className="container">
       <div className="home-gallery">
         <div className="home-gallery-item">
         </div> 
       </div>
-    </div>     
+    </div>      */}
     {/* <Catalogue/> */}
 
     {/* <Paintings imageUrls={cataloguePaintings}/> */}
