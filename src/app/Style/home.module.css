@@ -36,6 +36,25 @@
 	display: block;
 }
 
+/* .marquee_container{
+    z-index: 0;
+    margin: 100px; 
+} */
+
+.marquee_video{
+    position: relative;
+    z-index: 1;
+    margin-top: -10rem;
+    margin-bottom: -4rem;
+	margin: 5rem;
+	/* padding-bottom: 100px; */
+}
+
+.video_radius{
+    border-radius: 30px;
+    margin-top: 2rem;
+}
+
 /*
 
 The following rule will only run if your browser supports CSS grid.

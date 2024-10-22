@@ -12,8 +12,8 @@ import Paintings from '../Catalogue/Paintings';
 import {cataloguePaintings} from '../Utils/images'
 // import Catalogue from '../Catalogue/page';
 import News from '../News/News';
-import Marquee from '../Components/Marquee';
-import style from '../Style/marquee.module.css';
+import Marquee from '../Components/Marquee'; 
+
 
 const HomePage = () => {
     return (
@@ -22,22 +22,26 @@ const HomePage = () => {
         <title>Homepage</title>
         <meta name="Homepage" content="This is the Homepage as know as Landing page" />
     </Head>
-    <iframe
-          className={style.video_radius}
-          allow='fullscreen:autoplay'
-          allowFullScreen
-          src='https://streamable.com/e/8jf7nr?autoplay=1&nocontrols=1'
-          width='900'
-          height='500'
+    {/* <div className={styles.marquee_container}> */}
+    <div className={styles.marquee_video}>
+        <iframe
+              className={styles.video_radius}
+              allow='fullscreen:autoplay'
+              allowFullScreen
+              src='https://streamable.com/e/5lv8c4?autoplay=1&nocontrols=1'
+              width='900'
+              height='500'
         ></iframe>
+    </div>
+    {/* </div> */}
     <Marquee/>
     {/* <div className="container">
       <div className="home-gallery">
         <div className="home-gallery-item">
         </div> 
       </div>
-    </div>      */}
-    {/* <Catalogue/> */}
+    </div>     
+    <Catalogue/> */}
 
     {/* <Paintings imageUrls={cataloguePaintings}/> */}
      
@@ -47,7 +51,7 @@ const HomePage = () => {
     {/* <News/> */}
 
     {/* <Contact/> */}
-
+    
     <Footer />
 
     </div>
