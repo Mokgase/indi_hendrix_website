@@ -14,7 +14,16 @@
   text-align: center;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
+  margin-left: 60rem;
+}
+
+.line{
+  border: none;
+  border-top: 4px solid #333;
+  margin: 10px;
+  width: 100%;
+  margin-top: -1rem;
 }
 
 .p{

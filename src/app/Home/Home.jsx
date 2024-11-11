@@ -35,6 +35,10 @@ const HomePage = () => {
     </div>
     {/* </div> */}
     <Marquee/>
+    <br/>
+    <br/>
+    <br/>
+    <Paintings/>
     {/* <div className="container">
       <div className="home-gallery">
         <div className="home-gallery-item">
