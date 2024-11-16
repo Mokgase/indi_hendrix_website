@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import './styles.css';
 import Image from 'next/image';
 
-const Gallery = ({imageUrls, text}) => {
+// const Gallery = ({imageUrls, text}) => {
+  const Gallery = () => {
   return (
     <div className="gallery">
       {imageUrls.map((imageUrl, index) =>(

@@ -9,6 +9,8 @@ import Footer from '../Footer/Footer';
 import Link from 'next/link';
 import AboutMe from '../About/AboutMe';
 import Paintings from '../Catalogue/Paintings';
+import Prints from '../Catalogue/Prints';
+import Merch from '../Catalogue/Merch';
 import {cataloguePaintings} from '../Utils/images'
 // import Catalogue from '../Catalogue/page';
 import News from '../News/News';
@@ -39,6 +41,8 @@ const HomePage = () => {
     <br/>
     <br/>
     <Paintings/>
+    <Prints/>
+    <Merch/>
     {/* <div className="container">
       <div className="home-gallery">
         <div className="home-gallery-item">

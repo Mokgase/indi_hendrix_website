@@ -36,4 +36,23 @@
   /* margin-left: -5%; */
   /* padding: 10%; */
   }
+
+  .images_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 70px; /* Space between images */
+    max-width: 900px; /* Adjust based on your preference */
+    margin: 0 auto; /* Center the grid */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
   
+  .grid_image{
+    width: 100%; /* Adjusts to the grid cell */
+    height: 20rem; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures image fits nicely */
+    border: 2px solid #ddd; /* Optional: Adds a border */
+    border-radius: 5px; /* Optional: Rounds corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+
+  }

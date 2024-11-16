@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import NavLinks from './NavLinks';
 import '../globals.css';
+import NavBar_logo from '../../../public/Assets/images/NavBar_logo.png';
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -32,6 +33,13 @@ const NavBar = () => {
     <div className={`w-full sticky top-0 z-50 transition-all duration-300 ${scroll ? 'bg-gray-200 shadow-md' : 'bg-transparent'}`}>
       <nav className="md:flex items-center justify-between p-2 md:py-3 md:px-6 rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50"> 
       <div className="navbar flex justify-between items-center w-full">
+        <Image
+          // className={styles.NavBar_logo}
+          src={NavBar_logo}
+          placeholder='blur'
+          width={60}
+          height={60}
+        />
           <div className="md:hidden text-3xl cursor-pointer" onClick={toggleMenu}>
             <ion-icon name={`${open ? 'close' : 'menu'}`}></ion-icon>
           </div>
