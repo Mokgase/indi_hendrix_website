@@ -21,19 +21,28 @@
   margin-top: 4%;
 }
 
+.line{
+  border: none;
+  border-top: 4px solid #333;
+  margin: 10px;
+  width: 90%;
+  /* margin-top: 5rem; */
+  margin-left: 4.5rem;
+}
 .h1, .h2{
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
 .h1{
-    font-weight: bolder;
-    margin: 1px;
-    padding: 1px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
+  font-weight: bolder;
+  margin: 1px;
+  padding: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  margin-left: 60rem;
   }
   
   .h2{

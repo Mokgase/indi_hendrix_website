@@ -40,6 +40,7 @@ const HomePage = () => {
     <br/>
     <br/>
     <br/>
+    <AboutMe/>
     <Paintings/>
     <Prints/>
     <Merch/>
@@ -54,7 +55,6 @@ const HomePage = () => {
     {/* <Paintings imageUrls={cataloguePaintings}/> */}
      
 
-    {/* <AboutMe/> */}
 
     {/* <News/> */}
 

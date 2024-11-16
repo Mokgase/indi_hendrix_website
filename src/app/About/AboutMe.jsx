@@ -6,10 +6,12 @@ import Image from 'next/image';
 
 const AboutMe = () => {
   return (
-        <div id='about' className='w-full h-full'>
+        // <div id='about' className='w-full h-full'>
+        <div className={styles.container}>
+              <h1 class ={styles.h1}>ABOUT</h1>
+            <hr className={styles.line}/>
           <div className={styles.column1}>
             <div className={styles.heading}>
-              <h1 class ={styles.h1}>About</h1>
               <h2 class ={styles.h2}>South African Contemporary OP Artist</h2>
             </div>
             <div className={styles.text}>
@@ -34,7 +36,7 @@ const AboutMe = () => {
             <Image src={aboutImg} alt="logo" width={0} height={0} placeholder="blur" className="w-[80%] h-auto" />
             {/* <Image src={buddah} alt="buddah" width={0} height={0} placeholder="blur"/> */}
           </div>
-        </div>
+         </div>
   );
 };
 

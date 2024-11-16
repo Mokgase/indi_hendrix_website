@@ -11,10 +11,10 @@ const NavLinks = () => {
   ];
 
   const links = [
-    { name: 'About Me', route: '/about' },
-    { name: 'News', route: '/news' },
+    { name: 'About Me', route: '#about' },
+    { name: 'News', route: '#news' },
     { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },
-    { name: 'Contact Me', route: '/contact' },
+    { name: 'Contact Me', route: '#contact' },
   ];
 
   return (
