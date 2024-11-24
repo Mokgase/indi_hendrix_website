@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../Style/paintings.module.css'
+import Button from '../Components/Button';
 
 const Paintings =() => {
 
