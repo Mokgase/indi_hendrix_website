@@ -34,7 +34,7 @@ const NavBar = () => {
       <nav className="md:flex items-center justify-between p-2 md:py-3 md:px-6 rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50"> 
       <div className="navbar flex justify-between items-center w-full">
         <a href='#'><Image
-          // className={styles.NavBar_logo}
+          alt='navbar-logo'
           src={NavBar_logo}
           placeholder='blur'
           width={60}

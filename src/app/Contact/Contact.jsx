@@ -37,7 +37,11 @@ const Contact = () => {
           <hr className={styles.line}/>
           <div className={styles.text}>
             <p className={styles.p1}>
-            Whether you're looking to collaborate, commission a unique piece, or simply share your thoughts, I’d love to hear from you! Art is all about connection, and I believe every conversation sparks creativity. Fill in the form below, and let's bring your ideas to life. No matter how big or small, your vision is always welcome. Reach out, and let's make something unforgettable!
+            Whether you&apos;re looking to collaborate, commission a unique piece, 
+            or simply share your thoughts, I&apos;d love to hear from you! 
+            Art is all about connection, and I believe every conversation sparks creativity. 
+            Fill in the form below, and let&apos;s bring your ideas to life. 
+            No matter how big or small, your vision is always welcome. Reach out, and let&apos;s make something unforgettable!
             </p>
           </div>
           {/* <div>
