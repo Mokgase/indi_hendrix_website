@@ -90,22 +90,39 @@
     border-width: 9rem;
     margin-left: 2rem;
     margin-right: 2rem;
-
-    
+    height: 200px;
   }
 
-  .formcontainer {
+  .formcontainer{
+    height: 200px;
+    margin-top: -6rem;
+  }
+
+  /* .formcontainer {
     width: 100%; 
     padding: 1rem;
     float: center;
     width: 70%;
-    /* margin-left: -200px; */
-  }
+  } */
 
 
 
 .labels{
   color: #de841e;
+}
+
+.column1{
+/* margin-left: -80px; */
+position: relative;
+left: -8%;
+width: 30rem;
+}
+
+.column2{
+position: relative;
+right: -58%;
+width: 30rem;
+transform: translateY(-74px);
 }
 
   .inputs {

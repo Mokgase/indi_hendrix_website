@@ -51,10 +51,11 @@ const Contact = () => {
             />
           </div> */}
           <div className={styles.card}>
-          <form ref={form} onSubmit={sendEmail}> 
+          <form className={styles.formcontainer} ref={form} onSubmit={sendEmail}> 
               {/* <div className='mb-5'> */}
-              <label className={styles.labels}>Name</label>
-                <input 
+                <div className={styles.column1}>
+                  <label className={styles.labels}>Name</label>
+                  <input 
                   required
                   type="text" 
                   name="user_name"
@@ -62,16 +63,19 @@ const Contact = () => {
                   placeholder='Full name'
                   className={styles.inputs}
                    />
-                <label className={styles.labels}>Email</label>
-                <input 
-                  required
-                  type="email" 
-                  name="user_email" 
-                  id='user_email'
-                  placeholder='Email'
-                  className={styles.inputs}
-                  />
-                <label className={styles.labels}>Mobile Number</label>
+                </div>
+                <div className={styles.column2}>
+                  <label className={styles.labels}>Email</label>
+                  <input 
+                    required
+                    type="email" 
+                    name="user_email" 
+                    id='user_email'
+                    placeholder='Email'
+                    className={styles.inputs}
+                    />
+                </div>
+                {/* <label className={styles.labels}>Mobile Number</label>
                 <input
                   required
                   type='mobile'
@@ -79,7 +83,7 @@ const Contact = () => {
                   name="mobile"
                   placeholder="Mobile number"
                   className={styles.inputs}
-                />
+                /> */}
                 <label className={styles.labels}>Message</label>
                 <textarea 
                   required

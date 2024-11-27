@@ -61,7 +61,7 @@ const HomePage = () => {
 
     {/* <Contact/> */}
     
-    <Footer />
+    {/* <Footer /> */}
 
     </div>
   );
