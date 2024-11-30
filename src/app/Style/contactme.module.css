@@ -111,19 +111,19 @@
   color: #de841e;
 }
 
-.column1{
-/* margin-left: -80px; */
-position: relative;
-left: -8%;
-width: 30rem;
-}
+  .column1{
+  /* margin-left: -80px; */
+  position: relative;
+  left: -8%;
+  width: 30rem;
+  }
 
-.column2{
-position: relative;
-right: -58%;
-width: 30rem;
-transform: translateY(-74px);
-}
+  .column2{
+  position: relative;
+  right: -58%;
+  width: 30rem;
+  transform: translateY(-74px);
+  }
 
   .inputs {
     color: #de841e;
