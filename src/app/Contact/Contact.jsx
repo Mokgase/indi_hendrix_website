@@ -75,23 +75,18 @@ const Contact = () => {
                     className={styles.inputs}
                     />
                 </div>
-                {/* <label className={styles.labels}>Mobile Number</label>
-                <input
-                  required
-                  type='mobile'
-                  id="mobile"
-                  name="mobile"
-                  placeholder="Mobile number"
-                  className={styles.inputs}
-                /> */}
-                <label className={styles.labels}>Message</label>
-                <textarea 
-                  required
-                  name="message" 
-                  placeholder='Message me'
-                  className={styles.textarea}/>
-                <Button type={'submit'} value={'Send'} text={'Send'}/>
-                {/* </div> */}
+                <div className={styles.column3}>
+                  <label className={styles.labels}>Message</label>
+                  <textarea
+                    className={styles.textarea}
+                    required
+                    name='message'
+                    placeholder='Message me'
+                  />
+                  <div className={styles.button}>
+                  <Button type={'submit'} value={'Send'} text={'Send'}/>
+                  </div>
+                </div>
             </form>
           </div>
           {/* <div className={styles.formcontainer}>
