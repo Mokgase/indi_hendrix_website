@@ -52,6 +52,7 @@ const Footer =() => {
                         </ul>
                 </div>
             </div>
+            <p className={styles.text}>2024 Indi Hendrix All Rights Reserved</p>
         </div>
     )
 }
