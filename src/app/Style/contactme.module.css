@@ -1,37 +1,34 @@
 @font-face {
-    font-family: 'OpenSauceSans';
-    src: url("../../../public/Assets/fonts/OpenSauceSans-Black.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  
-  .row {
-    display: flex;
-    justify-content: center; /* Center the row content horizontally */
-    align-items: center; /* Center the row content vertically */
-    margin-top: 10rem;
-    gap: 2rem;
-    flex-wrap: wrap; /* Allow wrapping for responsiveness */
-  }
-  
-  .h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    margin: 1px;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    font-size: 40px;
-    margin-left: 50rem;
-  }
+  font-family: 'OpenSauceSans';
+  src: url("../../../public/Assets/fonts/OpenSauceSans-Black.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+
+.h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  margin: 1px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  margin-left: 60rem;
+}
+
+.line{
+  border: none;
+  border-top: 4px solid #333;
+  margin: 10px;
+  width: 100%;
+  margin-top: -1rem;
+}
   
   .p1{
     font-family: 'Poppins';
     color: black;
-    /* padding-left: 10rem; */
     font-weight: normal;
     text-align: right;
     padding-left: 50%;
@@ -40,45 +37,6 @@
     position: relative;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    /* padding: 10%; */
-  }
-
-  .line{
-    border: none;
-    border-top: 4px solid #333;
-    margin: 10px;
-    width: 100%;
-    margin-top: -1rem;
-    align-items: center;
-    margin-left: -5rem;
-    
-  }
-
-  /* .img{
-    align-items: center;
-    width: 100rem;
-    height: 50rem;
-    z-index: 1;
-    margin-top: -9.4rem;
-  } */
-
- 
-
-  .column::after {
-    content: "";
-    position: absolute;
-    top: -5rem;
-    bottom: 0;
-    left: 100%;
-    width: 1px;
-    background-color: rgb(250, 216, 193);
-    height: calc(100% + 6rem); 
-    display: block;
-    margin-left: 1rem; /* Adjust the spacing as needed */
-  }
-  
-  .column:last-child::after {
-    display: none; /* Hide the line after the last column */
   }
   
   .card{
@@ -95,15 +53,6 @@
     height: 200px;
     margin-top: -6rem;
   }
-
-  /* .formcontainer {
-    width: 100%; 
-    padding: 1rem;
-    float: center;
-    width: 70%;
-  } */
-
-
 
 .labels{
   color: #de841e;
@@ -132,15 +81,10 @@
 
   .button{
     position: absolute;
-    /* top: 50%; */
     left: 100%;
     /* transform: translate(-50%, -50%); */
     margin-top: 3rem;
   }
-  /* .btn{
-    align-items: center;
-    margin-bottom: 50rem;
-  } */
 
   .inputs {
     color: #de841e;
@@ -188,90 +132,7 @@
     border-color: #de841e; /* Equivalent to focus:border-purple-500 */
     box-shadow: none; /* Equivalent to focus:shadow-md */
   }
-
-  
-
-  .contactDetails {
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem; 
-    text-align: center; 
-  }
-  
-  
-  
-  .contactItem {
-    display: flex;
-    align-items: center;
-    /* margin-bottom: 1rem;  */
-    margin-left: 1rem;
-  }
-  
-  
-  .contactItem svg{
-    margin-right: 2rem;
-    font-size: 1.5rem;
-  }
-  .contactItem i {
-    margin-right: 3rem; /* Increase the space between icon and text */
-  }
-  
-  .contactItem span {
-    font-family: 'Poppins', sans-serif;
-    color: black;
-    font-size: 1rem; 
-  }
-  
-  
-  .heading {
-    font-family: OpenSauceSans;
-    margin-top: 5rem;
-    text-align: center;
-    font-size: 50px;
-    color: #1A1B25;
-  }
-  
-  .contactText {
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 3.5rem;
-    font-weight: bold;
-    color: #1A1B25;
-  }
-  
-  .buttonWrapper {
-    margin-top: 2rem; /* Add space above the button */
-    display: flex;
-    margin-bottom: 5rem;
-  }
-  
-  .imageText .headingtext {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    color: black;
-    
-  }
-  
-  .imageText .paragraph {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    color: black;
-  }
-  
-  .imageContainer{
-    margin-top: -3rem;
-    height: auto;
-    max-width: 100%;
-  }
-  
-  .fontColor{
-    color: #de841e;
-  }
+ 
   
   /* mobile devices. ipads, tablets */
   @media (max-width: 768px) {

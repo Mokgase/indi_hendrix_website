@@ -9,7 +9,7 @@ const Merch = () => {
   
   return(
     <div className={styles.container}>
-        <h1 class={styles.h1}>Merch</h1>
+        <h1 class={styles.h1}>MERCH</h1>
         <hr className={styles.line}/>
         <div className={styles.images_grid}>
             {images.map((image, index) => (

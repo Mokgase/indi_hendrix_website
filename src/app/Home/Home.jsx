@@ -40,11 +40,10 @@ const HomePage = () => {
     <br/>
     <br/>
     <br/>
-    <AboutMe/>
+    
     <Paintings/>
     <Prints/>
     <Merch/>
-    <Contact/>
     {/* <div className="container">
       <div className="home-gallery">
         <div className="home-gallery-item">
