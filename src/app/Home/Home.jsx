@@ -7,7 +7,7 @@ import styles from '../Style/home.module.css';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Link from 'next/link';
-import AboutMe from '../About/AboutMe';
+import About from '../About/About';
 import Paintings from '../Catalogue/Paintings';
 import Prints from '../Catalogue/Prints';
 import Merch from '../Catalogue/Merch';
@@ -40,7 +40,7 @@ const HomePage = () => {
     <br/>
     <br/>
     <br/>
-    
+    <About/>
     <Paintings/>
     <Prints/>
     <Merch/>

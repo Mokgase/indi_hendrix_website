@@ -30,9 +30,9 @@ const NavLinks = () => {
                 <div className='w-full p-1 grid grid-rows gap-1'>
                   {link.sublinks.map((mysublinks, subIndex) => (
                     <div key={subIndex} className='p-1'>
-                      <Link href={mysublinks.route}>
+                      {/* <Link href={mysublinks.route}> */}
                         <h1 className='navbar-text-options'>{mysublinks.name}</h1>
-                      </Link>
+                      {/* </Link> */}
                     </div>
                   ))}
                 </div>
