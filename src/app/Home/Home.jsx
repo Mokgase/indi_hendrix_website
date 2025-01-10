@@ -58,7 +58,7 @@ const HomePage = () => {
 
     {/* <News/> */}
 
-    {/* <Contact/> */}
+    <Contact/>
     
     <Footer />
 
