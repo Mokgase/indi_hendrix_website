@@ -6,7 +6,7 @@
 }
 
 
-.h1{
+/* .h1{
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   margin: 1px;
@@ -16,15 +16,15 @@
   color: black;
   font-size: 40px;
   margin-left: 60rem;
-}
+} */
 
-.line{
+/* .line{
   border: none;
   border-top: 4px solid #333;
   margin: 10px;
   width: 100%;
   margin-top: -1rem;
-}
+} */
 
 .p{
   font-family: 'Poppins';
@@ -36,23 +36,60 @@
   /* margin-left: -5%; */
   /* padding: 10%; */
   }
-
+/* 
   .images_grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 70px; /* Space between images */
-    max-width: 900px; /* Adjust based on your preference */
-    margin: 0 auto; /* Center the grid */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px; 
+    max-width: 900px;
+    margin: 0 auto; 
     margin-top: 5rem;
     margin-bottom: 5rem;
+  } */
+  
+  /* .grid_image{
+    width: 100%; 
+    height: 20rem; 
+    object-fit: cover; 
+    border: 2px solid #ddd; 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+  } */
+
+  .container {
+    padding: 20px;
+    text-align: center;
   }
   
-  .grid_image{
-    width: 100%; /* Adjusts to the grid cell */
-    height: 20rem; /* Maintains aspect ratio */
-    object-fit: cover; /* Ensures image fits nicely */
-    border: 2px solid #ddd; /* Optional: Adds a border */
-    border-radius: 5px; /* Optional: Rounds corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
-
+  .h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
   }
+  
+  .line {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+  }
+  
+  .images_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+    padding: 20px;
+  }
+  
+  .grid_image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .grid_image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
