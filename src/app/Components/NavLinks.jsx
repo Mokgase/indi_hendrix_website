@@ -4,16 +4,17 @@ import "../globals.css";
 
 const NavLinks = () => {
 
-  const Catalogue = [
-    { name: 'Paintings', route: '/catalogue/paintings' },
-    { name: 'Prints', route: '/catalogue/prints' },
-    { name: 'Merch', route: '/catalogue/merch' },
-  ];
+  // const Catalogue = [
+  //   { name: 'Paintings', route: '/catalogue/paintings' },
+  //   { name: 'Prints', route: '/catalogue/prints' },
+  //   { name: 'Merch', route: '/catalogue/merch' },
+  // ];
 
   const links = [
     { name: 'About Me', route: '#about' },
     { name: 'News', route: '#news' },
-    { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },
+    {name: 'Paintings', route: '#paintings'},
+    // { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },
     { name: 'Contact Me', route: '#contact' },
   ];
 
