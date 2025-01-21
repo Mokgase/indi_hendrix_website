@@ -40,6 +40,7 @@ const Paintings = () => {
   ];
 
   return (
+    <div id='paintings' className='w-full h-full'>
     <div className={styles.container}>
       <h1 className={styles.h1}>PAINTINGS</h1>
       <hr className={styles.line} />
@@ -53,6 +54,7 @@ const Paintings = () => {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 };

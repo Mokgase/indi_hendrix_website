@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const About = () => {
   return (
-        // <div id='about' className='w-full h-full'>
+        <div id='about' className='w-full h-full'>
         <div className={styles.container}>
               <h1 class ={styles.h1}>ABOUT</h1>
             <hr className={styles.line}/>
@@ -34,6 +34,7 @@ const About = () => {
           <div className={styles.column2}>
             <Image src={aboutImg} alt="logo" width={0} height={0} placeholder="blur" className="w-[80%] h-auto" />
           </div>
+         </div>
          </div>
   );
 };

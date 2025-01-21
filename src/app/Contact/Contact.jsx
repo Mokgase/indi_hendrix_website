@@ -30,7 +30,8 @@ const Contact = () => {
       );
   };
   return ( 
-    <div className={styles.container}>
+      <div id='contact' className='w-full h-full'>
+      <div className={styles.container}>
         <h1 class={styles.h1}>CONTACT</h1>
         <hr className={styles.line}/>
         <div className={styles.text}>
@@ -81,6 +82,7 @@ const Contact = () => {
                 </div>
             </form>
           </div>
+    </div>
     </div>
   )
 };

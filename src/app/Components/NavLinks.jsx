@@ -14,8 +14,8 @@ const NavLinks = () => {
     { name: 'About Me', route: '#about' },
     { name: 'News', route: '#news' },
     {name: 'Paintings', route: '#paintings'},
-    // { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },
     { name: 'Contact Me', route: '#contact' },
+    // { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },
   ];
 
   return (
