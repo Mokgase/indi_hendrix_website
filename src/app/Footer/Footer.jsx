@@ -11,9 +11,9 @@ const Footer =() => {
                 <div className={styles.column1}>
                     <h1 className={styles.heading}>Contact Me</h1>
                         <ul class={styles.list}>
-                            <li class={styles.listitems}>
+                            {/* <li class={styles.listitems}>
                                 <a href="tel:+27678787907" target="_blank">(+27) 67 878 7907</a>  
-                            </li>
+                            </li> */}
                             <li class={styles.listitems}>
                                 <a id="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=indihendrix@gmail.com" target="_blank">indihendrix@gmail.com</a>
                             </li>
@@ -45,11 +45,11 @@ const Footer =() => {
                         </ul>
                 </div>
                 <div className={styles.column3}>
-                    <h1 className={styles.heading}>Newsletter sign up</h1>
+                    {/* <h1 className={styles.heading}>Newsletter sign up</h1>
                         <ul class={styles.listitems}>
                             <input type="email" />
                             <Button text={'Send'}/>
-                        </ul>
+                        </ul> */}
                 </div>
             </div>
             <p className={styles.text}>2024 Indi Hendrix All Rights Reserved</p>

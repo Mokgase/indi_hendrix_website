@@ -12,7 +12,7 @@ const NavLinks = () => {
 
   const links = [
     { name: 'About Me', route: '#about' },
-    { name: 'News', route: '#news' },
+    // { name: 'News', route: '#news' },
     {name: 'Paintings', route: '#paintings'},
     { name: 'Contact Me', route: '#contact' },
     // { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },

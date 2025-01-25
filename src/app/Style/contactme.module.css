@@ -135,7 +135,93 @@
  
   
   /* mobile devices. ipads, tablets */
+
   @media (max-width: 768px) {
+    .card{
+      height: auto;
+      
+    }
+
+    .column1{
+      /* float:none; */
+      width: 250%;
+      margin-left: -130%;
+      /* margin-top: 2%; */
+      /* padding: 1%; */
+      }
+  
+  .column2{
+    /* float: right; */
+    /* width:50%; */
+    width: 250%;
+    margin-left: -190%;
+    margin-top: 6rem;
+    /* padding: 1%; */
+    /* margin-top: 4%; */
+  }
+
+  .column3{
+    /* float: right; */
+    width:250%;
+    margin-left: -140%;
+    /* padding: 1%; */
+    /* margin-top: 4rem; */
+  }
+    .line{
+      border: none;
+      border-top: 4px solid #333;
+      margin: 10px;
+      width: 80%;
+      margin-top: 0.1rem;
+      margin-left: 3rem;
+    }
+ 
+  .h1{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin-left: 10rem;
+    }
+
+    .text{
+      margin-top: 3rem;
+      margin-left: -17rem;
+    }
+
+    .p{
+      font-family: 'Poppins';
+      color: #1A1B25;
+      
+      /* padding-left: 10rem; */
+      font-weight: normal;
+      text-align: left;
+      /* margin-right: 15%; */
+      /* margin-left: -5%; */
+      /* padding: 10%; */  
+    }
+
+    .button{
+      position: absolute;
+      left:100px;
+
+    }
+    }
+   
+     @media (max-width: 1024px) { 
+      
+    }
+    
+    @media (min-width: 1025px) {
+    
+    
+    }
+  /* @media (max-width: 768px) {
     .row {
       margin-top: 5rem; 
     }
@@ -178,7 +264,7 @@
       
     }
   }
-  
+   */
   /* small screens, laptops */
   @media (min-width:769px) and  (max-width: 1024px) {
     .row {

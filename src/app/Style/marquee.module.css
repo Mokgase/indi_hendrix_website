@@ -23,3 +23,39 @@
         transform: translateX(-100vw);
     }
 } 
+
+
+@media (max-width: 768px) {
+	/* .marquee {
+        overflow:hidden;
+        white-space: nowrap;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px 0;
+        margin-top: -25rem; 
+	} */
+    .marquee_content{
+        display: inline-block;
+        animation: marquee 20s linear infinite;
+        margin-top:8.5rem;
+        z-index: 0;
+    }
+  }
+ 
+   @media (max-width: 1024px) { 
+	.marquee {
+	 
+	}
+    .marquee_content{
+        
+    }	
+  }
+  
+  @media (min-width: 1025px) {
+	.marquee {
+	 
+	}
+    .marquee_content{
+        
+    }
+  }

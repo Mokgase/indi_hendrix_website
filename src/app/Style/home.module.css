@@ -1,21 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 
-/* :root { */
-	/* Base font size */
-	/* font-size: 10px;
-} */
-
-/* *,
-*::before,
-*::after {
-	box-sizing: border-box;
-} */
-
-/* .body {
-	min-height: 100vh;
-	background-color: #fafafa;
-} */
-
 .container {
 	max-width: 100rem;
 	margin: 0 auto;
@@ -36,10 +20,7 @@
 	display: block;
 }
 
-/* .marquee_container{
-    z-index: 0;
-    margin: 100px; 
-} */
+
 
 .marquee_video{
     position: relative;
@@ -47,8 +28,6 @@
     margin-top: -10rem;
     margin-bottom: -4rem;
 	margin: 5rem;
-	/* padding-bottom: 100px;cd
-	 */
 }
 
 .video_radius{
@@ -56,11 +35,7 @@
     margin-top: 2rem;
 }
 
-/*
 
-The following rule will only run if your browser supports CSS grid.
-
-*/
 
 @supports (display: grid) {
 	.gallery {
@@ -86,3 +61,102 @@ The following rule will only run if your browser supports CSS grid.
 		transform: scale(1.15);
 	}
 }
+
+
+
+/* .noHorizontalScroll {
+	overflow-x: hidden;
+	width: 100%;
+  }
+  
+  .marquee_video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 100%;
+	margin: 20px auto;
+  }
+  
+  .video_radius {
+	border-radius: 12px;
+	width: 100%;
+	height: auto;
+	max-width: 900px;
+	max-height: 500px;
+	aspect-ratio: 16 / 9; 
+  }
+  
+  
+  .flex-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  
+  body {
+	font-family: 'Arial', sans-serif;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+  }
+  
+
+  .about-section {
+	padding: 2rem;
+	text-align: center;
+  }
+  
+  .about-section h1 {
+	font-size: 2rem;
+  }
+  
+  .about-section p {
+	font-size: 1rem;
+	margin-top: 1rem;
+  }
+  
+ 
+  .paintings-section {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	padding: 2rem;
+  }
+  
+  .paintings-section img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	border-radius: 8px;
+  }
+  
+ 
+  .footer {
+	background-color: #f4f4f4;
+	padding: 1rem;
+	text-align: center;
+	font-size: 0.9rem;
+  }
+   */
+   
+  @media (max-width: 768px) {
+	.video_radius {
+	  max-width: 100%;
+	  height: auto;
+	}
+  }
+ 
+   @media (max-width: 1024px) { 
+	.marquee_video {
+	  max-width: 80%;
+	}	
+  }
+  
+  @media (min-width: 1025px) {
+	.marquee_video {
+	  max-width: 900px;
+	}
+  }

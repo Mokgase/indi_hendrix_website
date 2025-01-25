@@ -42,13 +42,87 @@
     margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+  .card{
+    height: auto;
+    
+  }
+
+  .column1{
+    width: 250%;
+    }
+  
+  .column2{
+    width: 250%;
+  }
+
+  .column3{
+    width:250%;
+
+  }
+  .line{
+    border: none;
+    border-top: 4px solid #333;
+    margin: 10px;
+    width: 80%;
+    margin-top: 0.1rem;
+    margin-left: 3rem;
+  }
+ 
+  .h1{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin-left: 10rem;
+    }
+
+    .text{
+      margin-top: 3rem;
+      /* margin-left: -17rem; */
+    }
+
+    .p{
+      font-family: 'Poppins';
+      color: #1A1B25;
+      
+      /* padding-left: 10rem; */
+      font-weight: normal;
+      text-align: left;
+      /* margin-right: 15%; */
+      /* margin-left: -5%; */
+      /* padding: 10%; */  
+    }
+
+    .button{
+      position: absolute;
+      left:100px;
+
+    }
+    }
+   
+     @media (max-width: 1024px) { 
+      
+    }
+    
+    @media (min-width: 1025px) {
+    
+    
+    }
+
+/* 
 @media screen and (min-width: 1001px){
     .row {
         grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
         grid-gap: 2rem;
     }
 
-}
+} */
 
 
 
