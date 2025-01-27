@@ -84,19 +84,13 @@
 
     .text{
       margin-top: 3rem;
-      /* margin-left: -17rem; */
     }
 
     .p{
       font-family: 'Poppins';
       color: #1A1B25;
-      
-      /* padding-left: 10rem; */
       font-weight: normal;
-      text-align: left;
-      /* margin-right: 15%; */
-      /* margin-left: -5%; */
-      /* padding: 10%; */  
+      text-align: left;  
     }
 
     .button{
@@ -114,17 +108,6 @@
     
     
     }
-
-/* 
-@media screen and (min-width: 1001px){
-    .row {
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-        grid-gap: 2rem;
-    }
-
-} */
-
-
 
 
 
