@@ -33,7 +33,7 @@ const Contact = () => {
       <div id='contact' className='w-full h-full'>
       <div className={styles.container}>
         <h1 class={styles.h1}>CONTACT</h1>
-        <hr className={styles.line}/>
+        <hr className={styles.underline}/>
         <div className={styles.text}>
             <p className={styles.p1}>
             Whether you&apos;re looking to collaborate, commission a unique piece, 
