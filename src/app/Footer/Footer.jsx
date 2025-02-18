@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../Style/footer.module.css";
 import Button from "../Components/Button";
+import NewsLetter from "../Newsletter/NewsLetter";
 
 const Footer =() => {
     return(
@@ -44,13 +45,7 @@ const Footer =() => {
                             </li>
                         </ul>
                 </div>
-                <div className={styles.column3}>
-                    {/* <h1 className={styles.heading}>Newsletter sign up</h1>
-                        <ul class={styles.listitems}>
-                            <input type="email" />
-                            <Button text={'Send'}/>
-                        </ul> */}
-                </div>
+                <NewsLetter/>
             </div>
             <p className={styles.text}>2024 Indi Hendrix All Rights Reserved</p>
         </div>

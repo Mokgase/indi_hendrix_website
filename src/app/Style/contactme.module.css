@@ -144,20 +144,33 @@
   
   /* mobile devices. ipads, tablets */
 
-  @media (max-width: 768px) {
+  @media (min-width: 481px) and (max-width: 768px) {
+
     .card{
-      height:fit-content;
-      color: #D9D9D9;
-    }
+    border-radius: 10px;
+    border-color: "D9D9D9";
+    border-width: 9rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 200px;
+    margin-bottom: 5rem;
+    color: #D9D9D9;
+  }
 
     .column1, .column2, .column3{
       width: 10rem;
       margin-left: -7rem;
     }
   
-  .column2{
-    margin-top: 6rem;
-  }
+    .column2{
+      margin-top: 0rem;
+      margin-left: 5rem;
+    }
+
+    .column1, .column3{
+      margin-left:-5rem;
+    }
+    
 
   .underline{
     border: none;
@@ -206,8 +219,33 @@
       position: absolute;
       top:50%;
       left:50%;
-      transform: translate(-20%, 150%);
+      transform: translate(100%, 150%);
     }
+
+    .textarea {
+      color: #de841e;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: 500; 
+      outline: none;
+      border: none;
+      border-bottom: 2px solid #cacaca; 
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      background: transparent;
+      resize:horizontal;
+      resize: none;
+      min-width: 200px; /* Default width */
+      width: auto;
+      max-width: 500px; /* Prevents it from getting too large */
+      overflow: hidden;
+      resize: none;
+    }
+
+    .textarea:focus {
+      border-color: #de841e; /* Equivalent to focus:border-purple-500 */
+      box-shadow: none; /* Equivalent to focus:shadow-md */
+    }
+
     }
    
      @media (max-width: 1024px) { 
