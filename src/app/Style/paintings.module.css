@@ -74,6 +74,19 @@
     margin-left: 60rem;
     /* margin-bottom: 10px; */
   }
+
+  .painting_title{
+    color: #de841e;
+    font-weight: bolder;
+  }
+
+  .painting_size{
+    color:black;
+  }
+
+  .painting_price{
+    color: black;
+  }
   
   .line {
     width: 100%;
