@@ -48,13 +48,13 @@ const cataloguePaintings = [
   { src: '/Assets/images/45_Hours.png', title: '45 Hours', size: '594 x 841 mm', year:'2024', price: 'R1800.00' },
   { src: '/Assets/images/Testament_of_unkillable_gods.png', title: 'Testament of Unkillable Gods', size: '420 x 594 mm', year:'2024', price: 'R1200.00' },
   { src: '/Assets/images/Can_I_get_a_light.jpg', title: 'Can I Get a Light', size: '297 x 420 mm', year:'2023', price: 'R500.00' },
-  { src: '/Assets/images/Doomile.png', title: 'Doomile', size: '594 x 841 mm', year:'2023', price: '$350' },
-  { src: '/Assets/images/Scrying_Mirror.jpg', title: 'Scrying Mirror', size: '594 x 841 mm', year:'2023', price: '$550' },
-  { src: '/Assets/images/Rakgolo.jpg', title: 'Rakgolo', size: '36x36 inches', year:'2023', price: '$750' },
-  { src: '/Assets/images/Father_Stretch_my_Hand.jpg', title: 'Father Stretch My Hand', size: '594 x 841 mm', year:'2023', price: '$700' },
+  { src: '/Assets/images/Doomile.png', title: 'Doomile', size: '594 x 841 mm', year:'2023', price: 'TBD' },
+  { src: '/Assets/images/Scrying_Mirror.jpg', title: 'Scrying Mirror', size: '594 x 841 mm', year:'2023', price: 'TBD' },
+  { src: '/Assets/images/Rakgolo.jpg', title: 'Rakgolo', size: '36x36 inches', year:'2023', price: 'TBD' },
+  { src: '/Assets/images/Father_Stretch_my_Hand.jpg', title: 'Father Stretch My Hand', size: '594 x 841 mm', year:'2023', price: 'TBD' },
   { src: '/Assets/images/faces-phases.png', title: 'Faces & Phases', size: '297 x 420 mm', year:'2022', price: 'R600.00' },
   { src: '/Assets/images/This_depressions_not_a_phase.png', title: 'This Depression is Not a Phase', size: '297 x 420 mm', year:'2022', price: 'SOLD' },
-  { src: '/Assets/images/Fantastic_planet.jpg', title: 'Fantastic Planet', size: '30x30 inches', year:'2020', price: '$600' },
+  { src: '/Assets/images/Fantastic_planet.jpg', title: 'Fantastic Planet', size: '30x30 inches', year:'2020', price: 'R400' },
 ];
 
 
