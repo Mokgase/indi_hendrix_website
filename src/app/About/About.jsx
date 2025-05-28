@@ -1,4 +1,4 @@
-import aboutImg from '../../../public/Assets/images/2.png';
+import aboutImg from '../../../public/Assets/images/aboutimg.jpg';
 import styles from '../Style/aboutme.module.css';
 import Image from 'next/image';
 
