@@ -2,6 +2,8 @@ import React from "react";
 import styles from "../Style/footer.module.css";
 import Button from "../Components/Button";
 import NewsLetter from "../Newsletter/NewsLetter";
+import Link from "next/link";
+
 
 const Footer =() => {
     return(
@@ -16,7 +18,7 @@ const Footer =() => {
                                 <a href="tel:+27678787907" target="_blank">(+27) 67 878 7907</a>  
                             </li> */}
                             <li class={styles.listitems}>
-                                <a id="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=indihendrix@gmail.com" target="_blank">indihendrix@gmail.com</a>
+                                <a id="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=indihendrix@gmail.com" target="_blank">indihendrix27@gmail.com</a>
                             </li>
                             <li class={styles.listitems}>
                                 <a href="" target="_blank">FAQs</a>
@@ -38,10 +40,10 @@ const Footer =() => {
                     <h1 className={styles.heading}>Legal</h1>
                         <ul class={styles.list}>
                             <li class={styles.listitems}>
-                                <a href="" target="_blank">Privacy policy</a>
+                                <Link href="/Footer/PrivacyPolicy" target="_blank">Privacy Policy</Link>
                             </li>
                             <li class={styles.listitems}>
-                                <a href="">Terms & Condition</a>
+                                <Link href="/Footer/TermsAndConditions" target="_blank">Terms & Conditions</Link>
                             </li>
                         </ul>
                 </div>

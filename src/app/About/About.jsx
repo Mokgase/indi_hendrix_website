@@ -14,20 +14,17 @@ const About = () => {
               <h2 class ={styles.h2}>South African Contemporary OP Artist</h2>
             </div>
             <div className={styles.text}>
-              <p class ={styles.p1}>
-              Growing up in the vibrant landscapes of Ga-Phaahla, Limpopo, I discovered my passion for art. The rich cultural heritage and vivid colors of my surroundings ignited my creative journey, driven by an innate artistic instinct. This dynamic environment became the fertile ground for my artistic exploration and expression.
-              <br/>
-              <br/>
-              My distinctive visual language is inspired by Takashi Murakami&apos;s Superflat movement, Pop Art, and geometric styles. This blend results in artworks characterized by vibrant hues, bold lines, and whimsical characters, creating compositions that captivate and engage viewers.
-              <br/>
-              <br/>
-              I explore various themes in my paintings, including life&apos;s appreciation, existential crises, urban living, family dynamics, and the Black experience. Each piece delves into the complexities of existence, examining the interplay between personal identity and societal norms. Through this thematic exploration, I invite viewers to contemplate the multifaceted nature of human experience.
-              <br/>
-              <br/>
-              My work has been featured in group exhibitions in Pretoria, South Africa, showcasing my burgeoning presence in the art scene. Additionally, various media outlets, including The Creative Rejects, have highlighted my unique artistic voice, affirming my contribution to contemporary art.
-              <br/>
-              <br/>
-              <br/>
+              <p class={styles.p1}>
+                Growing up in the vibrant landscapes of Ga Phaahla, Limpopo, I discovered my passion for art early on. Surrounded by a rich cultural heritage and vivid natural colors, my creative journey began with an instinctive pull toward self-expression. The dynamic energy of my environment became fertile ground for visual storytelling, shaping the lens through which I view the world.
+                <br/>
+                <br/>
+                My artistic style draws inspiration from masters like Francisco Goya, George Condo, and elements of German Expressionism. This fusion of influence manifests in boldlines, vibrant hues, and whimsical, often surreal characters. The resulting compositions are emotive and captivating-inviting viewers into layered, imaginative narratives.
+                <br/>
+                <br/>
+                Through my paintings, I explore themes such as gratitude for life, existential tension, urban living, family relationships, and the broader human condition. Each piece delves into the complexities of identity and societal norms, offering viewers a chance to reflect on the emotional terrain of modern existence.
+                <br/>
+                <br/>
+                My work has been exhibited in group shows across Pretoria & Johannesburg, South Africa, marking my growing presence within the contemporary art scene. I&apos;ve also been featured in media outlets such as The Creative Rejects, which have recognized the distinctiveness of my voice and contribution to today&apos;s visual culture.
               </p>
             </div>
           </div>
