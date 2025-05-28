@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import styles from "../Style/newsLetter.module.css";
 import Button from "../Components/Button";
