@@ -15,6 +15,7 @@ import {cataloguePaintings} from '../Utils/images'
 // import Catalogue from '../Catalogue/page';
 import News from '../News/News';
 import Marquee from '../Components/Marquee'; 
+import Script from 'next/script';
 
 
 const HomePage = () => {
@@ -24,6 +25,18 @@ const HomePage = () => {
         <title>Homepage</title>
         <meta name="Homepage" content="This is the Homepage as know as Landing page" />
     </Head>
+    <Script id="google_analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP3CMVLW0"></Script>
+    <Script
+      id="google_analytics"
+      dangerouslySetInnerHTML={{
+        __html:`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZLP3CMVLW0');
+        `,
+      }}
+    />
     {/* <div className={styles.marquee_container}> */}
     <div className={styles.marquee_video}>
         <iframe

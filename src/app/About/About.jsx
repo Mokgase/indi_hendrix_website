@@ -1,11 +1,25 @@
 import aboutImg from '../../../public/Assets/images/aboutimg.jpg';
 import styles from '../Style/aboutme.module.css';
 import Image from 'next/image';
-
+import Script from 'next/script';
+import Head from 'next/head';
 
 const About = () => {
   return (
         <div id='about' className='w-full h-full'>
+        <Head></Head>
+        <Script id="google_analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP3CMVLW0"></Script>
+        <Script
+          id="google_analytics"
+          dangerouslySetInnerHTML={{
+            __html:`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-ZLP3CMVLW0');
+            `,
+          }}
+        />        
         <div className={styles.container}>
               <h1 class ={styles.h1}>ABOUT</h1>
             <hr className={styles.line}/>

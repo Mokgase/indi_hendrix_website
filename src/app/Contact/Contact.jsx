@@ -4,6 +4,7 @@ import styles from '../Style/contactme.module.css';
 import Button from '../Components/Button';
 import Image from 'next/image';
 import emailjs from '@emailjs/browser';
+import Script from 'next/script';
 
 
 const Contact = () => {
@@ -31,6 +32,18 @@ const Contact = () => {
   };
   return ( 
       <div id='contact' className='w-full h-full'>
+      <Script id="google_analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP3CMVLW0"></Script>
+      <Script
+        id="google_analytics"
+        dangerouslySetInnerHTML={{
+          __html:`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZLP3CMVLW0');
+          `,
+        }}
+      />  
       <div className={styles.container}>
         <h1 class={styles.h1}>CONTACT</h1>
         <hr className={styles.underline}/>

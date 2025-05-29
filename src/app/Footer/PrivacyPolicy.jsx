@@ -1,8 +1,21 @@
 import React from "react";
+import Script from "next/script";
 
 const PrivacyPolicy = () => {
   return (
     <div id='privacypolicy' className="max-w-3xl mx-auto p-6 text-gray-800">
+    <Script id="google_analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP3CMVLW0"></Script>
+    <Script
+      id="google_analytics"
+      dangerouslySetInnerHTML={{
+        __html:`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZLP3CMVLW0');
+        `,
+      }}
+    />
       <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
       <p className="text-sm text-gray-600">Effective Date: [Insert Date]</p>
       
