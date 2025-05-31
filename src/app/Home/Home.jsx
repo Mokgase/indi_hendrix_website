@@ -9,11 +9,11 @@ import Footer from '../Footer/Footer';
 import Link from 'next/link';
 import About from '../About/About';
 import Paintings from '../Catalogue/Paintings';
-import Prints from '../Catalogue/Prints';
-import Merch from '../Catalogue/Merch';
-import {cataloguePaintings} from '../Utils/images'
+// import Prints from '../Catalogue/Prints';
+// import Merch from '../Catalogue/Merch';
+// import {cataloguePaintings} from '../Utils/images'
 // import Catalogue from '../Catalogue/page';
-import News from '../News/News';
+// import News from '../News/News';
 import Marquee from '../Components/Marquee'; 
 import Script from 'next/script';
 
@@ -43,7 +43,6 @@ const HomePage = () => {
               className={styles.video_radius}
               allow='fullscreen:autoplay'
               allowFullScreen
-              // src='https://streamable.com/e/5lv8c4?autoplay=1&nocontrols=1'
               src='https://streamable.com/e/vdrb80?autoplay=1&nocontrols=1'
               width='900'
               height='500'
