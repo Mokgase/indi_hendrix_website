@@ -47,7 +47,9 @@ const Footer =() => {
                             </li>
                         </ul>
                 </div>
-                <NewsLetter/>
+                <div className={styles.column4}>
+                    <NewsLetter/>
+                </div>
             </div>
             <p className={styles.text}>2024 Indi Hendrix All Rights Reserved</p>
         </div>

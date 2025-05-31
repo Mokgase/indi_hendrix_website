@@ -5,6 +5,8 @@ import Head from 'next/head';
 
 
 const cataloguePaintings = [
+  
+  { src: '/Assets/images/I_carry_them_with_me.png', title: 'I carry them with me', size: '600 x 900 mm', year:'2025', price: 'R2500.00' },
   { src: '/Assets/images/Let_them_eat_Brioche.png', title: 'Let them eat Brioche', size: '600 x 900 mm', year:'2025', price: 'SOLD' },
   { src: '/Assets/images/Golden_Years_official.png', title: 'Golden Years', size: '594 x 841 mm', year:'2025', price: 'R2000.00' },
   { src: '/Assets/images/FEAR_OF_GROWTH.png', title: 'Fear of Growth', size: '594 x 841 mm', year:'2024', price: 'R2000.00' },

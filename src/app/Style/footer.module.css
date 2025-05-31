@@ -58,8 +58,12 @@
 
   .column3{
     width:250%;
-
   }
+
+  .column4{
+    width: 250%;
+  }
+
   .line{
     border: none;
     border-top: 4px solid #333;

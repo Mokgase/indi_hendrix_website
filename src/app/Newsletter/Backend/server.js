@@ -22,6 +22,7 @@ const subscriberSchema = new mongoose.Schema({
 const Subscriber = mongoose.model("Subscriber", subscriberSchema);
 
 app.post("/subscribe", async (req, res) => {
+  console.log("Received email:", req.body.email);
   const { email } = req.body;
 
   if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
@@ -53,29 +54,3 @@ app.get("/subscribers", async (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(5000, () => console.log("🚀 Server running on port 5000"));
-
-
-
-
-// // server.js (Node.js + Express)
-// import express from "express";
-// import cors from "cors";
-// // import dotenv from ""
-
-// const app = express();
-// app.use(express.json());
-// app.use(cors()); // Allow frontend requests
-
-// app.post("/subscribe", (req, res) => {
-//   const { email } = req.body;
-
-//   if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
-//     return res.status(400).json({ message: "Invalid email address" });
-//   }
-
-//   // Simulate saving to database
-//   console.log("Subscribed:", email);
-//   res.status(200).json({ message: "Subscription successful!" });
-// });
-// app.listen(3000, () => console.log("Server running on port 3000"));
-// // app.listen(5000, () => console.log("Server running on port 5000"));

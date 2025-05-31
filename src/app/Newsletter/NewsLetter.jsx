@@ -7,16 +7,18 @@ const NewsLetter = () => {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState(null);
 
-  const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  // const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!isValidEmail(email)) {
-      setStatus("error");
-      return;
+    // if (!isValidEmail(email)) {
+    //   setStatus("error");
+    //   return;
+    // }
+    if (!email.match(regex)) {
+      setError("Invalid email");
     }
-
     try {
       const response = await fetch("http://localhost:5000/subscribe", {
         method: "POST",
