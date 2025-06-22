@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-import testingIcon from '../../../public/Assets/images/testing.jpg';
+import testingIcon from '../../../public/Assets/images/testing2.png';
 import styles from '../Style/loadingScreen.module.css';
 
 
