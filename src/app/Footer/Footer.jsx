@@ -32,7 +32,7 @@ const Footer =() => {
                                 <a href="https://www.instagram.com/indi_hendrix/">Intagram</a>
                             </li>
                             <li class={styles.listitems}>
-                                <a href="">Twitter</a>
+                                <a href="https://x.com/IndiHendrix">X</a>
                             </li>
                         </ul>
                 </div>
