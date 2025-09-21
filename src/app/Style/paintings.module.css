@@ -115,7 +115,30 @@
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
+
+  .modal_container{
+    margin-top: -8.5rem;
+    top: -370px;
+    position: relative;
+}
+
+  .btn{
+    /* position: relative; */
+    /* align-items: center; */
+    /* margin-left: 50px; */
+    display: block;
+    margin: 0 auto;
+    margin-left: 10rem;
+}
   
+.column1{
+     margin-right: 50%;
+}
+
+.column2{
+  margin-left: 50%;
+  
+}
 
   @media (max-width: 768px) {
     .h1{
