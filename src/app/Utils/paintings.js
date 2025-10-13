@@ -5,7 +5,7 @@ const cataloguePaintings = [
   { src: '/Assets/images/the_strength_behind_him.png', title: 'The Strength Behind HIM', size: '615 x 920 mm', year:'2025', price: 'R4700.00', story:'Acrylic paint & oil pastels on canvas' },
   { src: '/Assets/images/war_ready.png', title: 'War Ready', size: '615 x 917 mm', year:'2025', price: 'R5000.00', story:'Acrylic paint & oil pastels on canvas' },
   { src: '/Assets/images/monna_wa_go_šoma.png', title: 'Monna wa go soma', size: '260 x 360 mm', year:'2025', price: 'R2000.00', story:'Acrylic paint & oil pastels on canvas' },
-  { src: '/Assets/images/When_trees_fall.png', title: 'When trees fall', size: '600 x 900 mm', year:'2025', price: 'R2700.00', story:'Acrylic paint & oil pastels on canvas' },
+  { src: '/Assets/images/When_trees_fall.png', title: 'When trees fall', size: '600 x 900 mm', year:'2025', price: 'R3000.00', story:'Acrylic paint & oil pastels on canvas' },
   { src: '/Assets/images/I_carry_them_with_me.png', title: 'I carry them with me', size: '600 x 900 mm', year:'2025', price: 'SOLD' },
   { src: '/Assets/images/Let_them_eat_Brioche.png', title: 'Let them eat Brioche', size: '600 x 900 mm', year:'2025', price: 'SOLD' },
   { src: '/Assets/images/Untitled_25.png', title: 'Untitled 25', size: '594 x 841 mm', year:'2025', price: 'R1500.00', story:'Acrylic paint & oil pastels on canvas' },
