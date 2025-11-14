@@ -24,6 +24,7 @@ import Script from 'next/script'
 import "./globals.css";
 import { Inter } from "next/font/google";
 import React from "react";
+import { EnquiryProvider } from "./Components/Enquiry";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,9 +41,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <EnquiryProvider>
         {children}
         <Script rel="preload" type="module"  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"/>
         <Script rel="preload"   src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"/>
+        </EnquiryProvider>
         </body>
     </html>
   );

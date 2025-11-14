@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className='w-full bg-gradient-white'>
+    <div className='w-full bg-gradient-white '>
       <NavBar  />
       {isLoading ? (
         <LoadingScreen onLoadingComplete={() => setIsLoading(false)} /> // Show loader if isLoading is true

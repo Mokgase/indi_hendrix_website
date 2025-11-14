@@ -8,7 +8,7 @@ import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Link from 'next/link';
 import About from '../About/About';
-import Paintings from '../Catalogue/Paintings';
+import Paintings from '../Catalogue/Paintings/Paintings';
 // import Prints from '../Catalogue/Prints';
 // import Merch from '../Catalogue/Merch';
 // import {cataloguePaintings} from '../Utils/images'
@@ -16,11 +16,16 @@ import Paintings from '../Catalogue/Paintings';
 // import News from '../News/News';
 import Marquee from '../Components/Marquee'; 
 import Script from 'next/script';
+import {EnquiryProvider} from '../Components/Enquiry';
 
 
-const HomePage = () => {
+
+
+const HomePage = (Component, pageProps ) => {
     return (
-    <div className={`w-full h-full flex flex-col justify-center items-center ${styles.noHorizontalScroll}`}> 
+      <EnquiryProvider>
+      <div className={`w-full h-full flex flex-col justify-center items-center ${styles.noHorizontalScroll}`}> 
+        {/* <Component{...pageProps}/> */}
     <Head>
         <title>Homepage</title>
         <meta name="Homepage" content="This is the Homepage as know as Landing page" />
@@ -74,8 +79,8 @@ const HomePage = () => {
     <Contact/>
     
     <Footer />
-
     </div>
+    </EnquiryProvider>
   );
 };
 
