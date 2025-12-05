@@ -1,0 +1,34 @@
+.h1{
+      font-family: 'Roboto', sans-serif;
+      color: black;
+      font-weight: bold;
+      /* margin: 1px; */
+      /* padding: 1px; */
+      text-align: left;
+      text-decoration: none;
+      color: black;
+      font-size: 40px;
+      /* margin-left: 5rem; */
+    }
+    
+  .p{
+    font-family: 'Poppins';
+    color: #1A1B25;
+    /* padding-left: 10rem; */
+    font-weight: normal;
+    text-align: left;
+    /* margin-right: 15%; */
+    /* margin-left: -5%; */
+    /* padding: 10%; */
+    }
+
+    .painting_title{
+        color:#de841e;
+        font-weight: bolder;
+        display: inline-block;
+    }
+
+    .painting_price{
+        color:black;
+        display: inline-block;
+    }
