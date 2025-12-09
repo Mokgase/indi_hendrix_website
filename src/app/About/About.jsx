@@ -25,7 +25,7 @@ const About = () => {
             <hr className={styles.line}/>
           <div className={styles.column1}>
             <div className={styles.heading}>
-              <h2 class ={styles.h2}>South African Contemporary OP Artist</h2>
+              <h2 class ={styles.h2}>South African Contemporary Artist</h2>
             </div>
             <div className={styles.text}>
               <p class={styles.p1}>
@@ -38,7 +38,7 @@ const About = () => {
                 Through my paintings, I explore themes such as gratitude for life, existential tension, urban living, family relationships, and the broader human condition. Each piece delves into the complexities of identity and societal norms, offering viewers a chance to reflect on the emotional terrain of modern existence.
                 <br/>
                 <br/>
-                My work has been exhibited in group shows across Pretoria & Johannesburg, South Africa, marking my growing presence within the contemporary art scene. I&apos;ve also been featured in media outlets such as The Creative Rejects, which have recognized the distinctiveness of my voice and contribution to today&apos;s visual culture.
+                My work has been exhibited in shows across Pretoria & Johannesburg, South Africa, marking my growing presence within the contemporary art scene. 
               </p>
             </div>
           </div>
