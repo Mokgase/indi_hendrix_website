@@ -1,6 +1,7 @@
 'use client'
 import { useEnquiry } from "../Components/Enquiry";
 import styles from "../Style/enquiries.module.css";
+import Button from "../Components/Button";
 
 
 const Enquiries = () => {
@@ -22,6 +23,12 @@ const Enquiries = () => {
           ))}
         </ul>
       )}
+      <Button
+        type="submit"
+        value="Enquire"
+        text="Send Enquiry"
+        href="mailto:thapelommakola2@gmail.com?subject=Enquiry about painting(s) &body=Hi I am interested with the paintings listed below, please get in touch with me with more information  about them."
+      />
     </div>
   );
 };
