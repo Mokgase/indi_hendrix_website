@@ -6,6 +6,12 @@ import Button from "../Components/Button";
 
 const Enquiries = () => {
   const { enquiries } = useEnquiry();
+  const email = "thapelommakola2@gmail.com";
+  const subject = "Enquiry about painting(s)";
+  const body = "Hi I am interested with the paintings listed below, please get in touch with me with more information  about them.";
+  const mailto = `mailto:${email}?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
 
   return (
     <div>
@@ -24,12 +30,10 @@ const Enquiries = () => {
         </ul>
       )}
       <Button
-        type="submit"
-        value="Enquire"
         text="Send Enquiry"
-        href="mailto:thapelommakola2@gmail.com?subject=Enquiry about painting(s) &body=Hi I am interested with the paintings listed below, please get in touch with me with more information  about them."
+        href={mailto}
       />
-    </div>
+      </div>
   );
 };
 
