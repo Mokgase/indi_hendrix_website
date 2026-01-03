@@ -43,7 +43,7 @@ const HomePage = () => {
               className={styles.video_radius}
               allow='fullscreen:autoplay'
               allowFullScreen
-              src='https://streamable.com/e/vdrb80?autoplay=1&nocontrols=1'
+              src='https://streamable.com/e/aqa7d7?autoplay=1&nocontrols=1'
               width='900'
               height='500'
         ></iframe>
