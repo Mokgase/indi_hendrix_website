@@ -29,10 +29,10 @@ const About = () => {
             </div>
             <div className={styles.text}>
               <p class={styles.p1}>
-                Growing up in the vibrant landscapes of Ga Phaahla, Limpopo, I discovered my passion for art early on. Surrounded by a rich cultural heritage and vivid natural colors, my creative journey began with an instinctive pull toward self-expression. The dynamic energy of my environment became fertile ground for visual storytelling, shaping the lens through which I view the world.
+                Growing up in the vibrant landscapes of Ga Phaahla, Limpopo, I discovered my passion for art early on. Surrounded by a rich cultural heritage and vivid natural colors, my creative journey began with an instinctive pull toward self expression. The dynamic energy of my environment became fertile ground for visual storytelling, shaping the lens through which I view the world.
                 <br/>
                 <br/>
-                My artistic style draws inspiration from masters like Francisco Goya, George Condo, and elements of German Expressionism. This fusion of influence manifests in boldlines, vibrant hues, and whimsical, often surreal characters. The resulting compositions are emotive and captivating-inviting viewers into layered, imaginative narratives.
+                My artistic style draws inspiration from masters like Francisco Goya, George Condo, and elements of German Expressionism. This fusion of influence manifests in boldlines, vibrant hues, and whimsical, often surreal characters. The resulting compositions are emotive and captivating inviting viewers into layered, imaginative narratives.
                 <br/>
                 <br/>
                 Through my paintings, I explore themes such as gratitude for life, existential tension, urban living, family relationships, and the broader human condition. Each piece delves into the complexities of identity and societal norms, offering viewers a chance to reflect on the emotional terrain of modern existence.
