@@ -45,7 +45,7 @@ const Contact = () => {
       // );
   };
   return ( 
-      <div id='contact' className='w-full h-full'>
+      <div id="contact" className="w-full h-full">
       <Script id="google_analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP3CMVLW0"></Script>
       <Script
         id="google_analytics"
@@ -53,8 +53,8 @@ const Contact = () => {
           __html:`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-ZLP3CMVLW0');
+          gtag("js", new Date());
+          gtag("config", "G-ZLP3CMVLW0");
           `,
         }}
       />  
@@ -82,10 +82,10 @@ const Contact = () => {
                   <label className={styles.labels}>Name</label>
                   <input 
                   required
-                  type="text" 
+                  type="text"
                   name="user_name"
-                  id='name'
-                  placeholder='Full name'
+                  id="name"
+                  placeholder="Full name"
                   className={styles.inputs}
                    />
                 </div>
@@ -94,9 +94,9 @@ const Contact = () => {
                   <input 
                     required
                     type="email" 
-                    name="user_email" 
-                    id='user_email'
-                    placeholder='Email'
+                    name="user_email"
+                    id="user_email"
+                    placeholder="Email"
                     className={styles.inputs}
                     />
                 </div>
@@ -105,11 +105,11 @@ const Contact = () => {
                   <textarea
                     className={styles.textarea}
                     required
-                    name='message'
-                    placeholder='Message me'
+                    name="message"
+                    placeholder="Message me"
                   />
                   <div className={styles.button}>
-                  <Button type={'submit'} value={'Send'} text={'Send'}/>
+                  <Button type={"submit"} value={"Send"} text={"Send"}/>
                   </div>
                 </div>
             </form>
