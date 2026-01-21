@@ -155,6 +155,16 @@
     animation: fadeInOut 3s ease forwards;
   }
   
+  .successMessage {
+  background-color: #de841e;
+  color: #cea87c;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
   @keyframes fadeInOut {
     0% { opacity: 0; transform: translateY(-10px); }
     10% { opacity: 1; transform: translateY(0); }

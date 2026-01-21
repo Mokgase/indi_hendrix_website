@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from '../Style/contactme.module.css';
 import Button from '../Components/Button';
 import Image from 'next/image';
@@ -9,6 +9,7 @@ import Script from 'next/script';
 
 const Contact = () => {
   const form = useRef();
+  const [success, setSuccess] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,14 +22,27 @@ const Contact = () => {
         'JLyAuDRbEpuDJRgII',
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          console.log("message sent successfully")
+        () => {
+          setSuccess(true);
+          form.current.reset();
+
+          setTimeout(() =>{
+            setSuccess(false);
+          }, 3000);
         },
-        (error) => {
-          console.log(error.text);
-        },
+        (error) =>{
+          console.error(error.text);
+        }
       );
+      // .then(
+      //   (result) => {
+      //     console.log(result.text);
+      //     console.log("message sent successfully")
+      //   },
+      //   (error) => {
+      //     console.log(error.text);
+      //   },
+      // );
   };
   return ( 
       <div id='contact' className='w-full h-full'>
@@ -47,6 +61,11 @@ const Contact = () => {
       <div className={styles.container}>
         <h1 class={styles.h1}>CONTACT</h1>
         <hr className={styles.underline}/>
+         {success && (
+          <div className={styles.successMessage}>
+            ✅ Your message has been sent successfully!
+          </div>
+        )}
         <div className={styles.text}>
             <p className={styles.p1}>
             Whether you&apos;re looking to collaborate, commission a unique piece, 
