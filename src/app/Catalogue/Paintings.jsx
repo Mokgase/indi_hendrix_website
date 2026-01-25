@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../Style/paintings.module.css';
 import Script from 'next/script';
 import Head from 'next/head';
-// import Modal from '../Components/Modal';
+import Modal from '../Components/Modal';
 import Button from '../Components/Button';
 import cataloguePaintings from '../Utils/paintings';
 import Image from "next/image";
@@ -44,16 +44,14 @@ const Paintings = () => {
               <div className={styles.painting_info}>
                 <h1 className={styles.painting_title}>{painting.title}</h1>
                 <p className={styles.painting_size}>{painting.size}</p>
-                <p className={styles.painting_price}>{painting.price}</p>
+                <p className={styles.medium}>{painting.medium}</p>
+                {/* <p className={styles.painting_price}>{painting.price}</p> */}
                 <p className={styles.year_of_painting}>{painting.year}</p>
               </div>
-              {/* <Modal>
+              <Modal>
                     <div >
                       <div className={styles.column1}>
-                        <Image 
-                          height={900}
-                          width={600}
-                          quality={100}
+                        <img 
                           src={painting.src}
                         />
                       </div>
@@ -63,14 +61,24 @@ const Paintings = () => {
                           <p className={styles.painting_size}>{painting.size}</p>
                           <p className={styles.painting_price}>{painting.price}</p>
                           <p className={styles.year_of_painting}>{painting.year}</p>
-                          <p className={styles.medium}>{painting.story}</p>
+                          <p className={styles.year_of_painting}>{painting.status}</p>
+                          <p className={styles.medium}>{painting.medium}</p>
                           <div className={styles.btn}>
-                            <Button type={'submit'} value={'Enquire'} text={'Add to Enquiry'}/>
+                            {/* <Button
+                              type="submit"
+                              value="Enqiure"
+                              text="Add to Enquiry"
+                              onClick={() =>{
+                                console.log("Adding:",painting.title);
+                                addToEnquiries(painting);
+                              }}
+                            /> */}
+                           
                           </div>
                       </div>
                     </div>
                 </div>
-              </Modal> */}
+              </Modal>
             </div>
           ))}
         </div>
