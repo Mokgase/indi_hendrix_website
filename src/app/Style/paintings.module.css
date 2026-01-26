@@ -170,11 +170,29 @@
       padding: 20px; 
     }
 
+      .modal_container{
+        margin-top: -2rem;
+        top: -370px;
+        position: relative;
+}
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .modal_container{
+        margin-top: 10rem;
+        top: -370px;
+        position: relative;
+        }
+  }
     }
    
-     @media (max-width: 1024px) { 
-      
+  @media screen and (min-width: 769px) and (max-width: 1040px) { 
+    .modal_container{
+    margin-top: 2rem;
+    top: -370px;
+    position: relative;
     }
+  }
+    
     
     @media (min-width: 1025px) {
     
