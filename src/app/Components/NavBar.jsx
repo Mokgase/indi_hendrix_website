@@ -30,7 +30,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className={`w-full sticky top-0 z-50 transition-all duration-300 ${scroll ? 'bg-gray-200 shadow-md' : 'bg-transparent'}`}>
+    <div className={`w-full fixed top-0 z-50 transition-all duration-300 ${scroll ? 'bg-gray-200 shadow-md' : 'bg-transparent'}`}>
       <nav className="md:flex items-center justify-between p-2 md:py-3 md:px-6 rounded-md backdrop-filter backdrop-blur-sm bg-opacity-50"> 
       <div className="navbar flex justify-between items-center w-full">
         <a href='#'><Image
