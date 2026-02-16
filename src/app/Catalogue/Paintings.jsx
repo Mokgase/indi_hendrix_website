@@ -49,7 +49,7 @@ const Paintings = () => {
                 <p className={styles.year_of_painting}>{painting.year}</p>
               </div>
               <Modal>
-                    <div >
+                    <div>
                       <div className={styles.column1}>
                         <img 
                           src={painting.src}
