@@ -116,29 +116,36 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 
-  .modal_container{
-    margin-top: -8.5rem;
-    top: -370px;
-    position: relative;
-}
+  .modalBody {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
 
-  .btn{
-    /* position: relative; */
-    /* align-items: center; */
-    /* margin-left: 50px; */
+  .column1 {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .modalImage {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
     display: block;
-    margin: 0 auto;
-    margin-left: 10rem;
-}
-  
-.column1{
-     margin-right: 50%;
-}
+  }
 
-.column2{
-  margin-left: 50%;
-  
-}
+  .column2 {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
 
   @media (max-width: 768px) {
     .h1{
@@ -170,29 +177,31 @@
       padding: 20px; 
     }
 
-      .modal_container{
-        margin-top: -2rem;
-        top: -370px;
-        position: relative;
-}
-
   @media screen and (min-width: 320px) and (max-width: 767px) {
-    .modal_container{
-        margin-top: 10rem;
-        position: relative;
-        }
+    .modalBody {
+      flex-direction: column;
+    }
 
-    .column1{
-      margin-top:5rem;
+    .column1,
+    .column2 {
+      width: 100%;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
     }
   }
     }
    
-  @media screen and (min-width: 769px) and (max-width: 1040px) { 
-    .modal_container{
-    margin-top: 2rem;
-    top: -370px;
-    position: relative;
+  @media screen and (min-width: 769px) and (max-width: 1040px) {
+    .modalBody {
+      flex-direction: column;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
     }
   }
     

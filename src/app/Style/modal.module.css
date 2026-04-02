@@ -12,14 +12,16 @@
 
 .modalContent{
     background-color: white;
-    margin: 15% auto;
+    margin: 8% auto;
     padding: 20px;
     border: 1px solid #888;
-    /* height: 50%; */
     width: 80%;
     max-width: 900px;
-    position:relative;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
     z-index: 2;
+    border-radius: 8px;
 }
 
 .closeButton{
@@ -49,6 +51,16 @@
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+}
+
+.openModalButton {
+    background-color: transparent;
+    border: 2px solid #de841e;
+    border-radius: 20px;
+    padding: 6px 18px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s;
 }
 
 .openModalButton:hover{

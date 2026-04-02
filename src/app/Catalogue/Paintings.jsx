@@ -53,14 +53,15 @@ const Paintings = () => {
                 <p className={styles.year_of_painting}>{painting.year}</p>
               </div>
               <Modal>
-                    <div>
+                    <div className={styles.modalBody}>
                       <div className={styles.column1}>
-                        <img 
+                        <img
                           src={painting.src}
+                          alt={painting.title}
+                          className={styles.modalImage}
                         />
                       </div>
                       <div className={styles.column2}>
-                        <div className={styles.modal_container}>
                           <h1 className={styles.painting_title}>{painting.title}</h1>
                           <p className={styles.painting_size}>{painting.size}</p>
                           <p className={styles.painting_price}>{painting.price}</p>
@@ -77,7 +78,6 @@ const Paintings = () => {
                           </div>
                       </div>
                     </div>
-                </div>
               </Modal>
             </div>
           ))}
