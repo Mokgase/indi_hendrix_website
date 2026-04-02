@@ -3,12 +3,13 @@
 import React, { useState } from 'react'
 import styles from '../Style/roundedButton.module.css';
 
-const Button = ({onClick, text}) => {
+const Button = ({onClick, text, type}) => {
   const [isHovered, setIsHovered] = useState(false);
 
 
   return (
-    <button className={styles.roundedButton} 
+    <button className={styles.roundedButton}
+            type={type || 'button'}
             onClick={onClick}
             onMouseEnter={()=> setIsHovered(true)}
             onMouseLeave={()=> setIsHovered(false)}>

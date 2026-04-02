@@ -1,21 +1,17 @@
+'use client';
 import React from 'react';
 import Link from 'next/link';
 import "../globals.css";
+import { useEnquiry } from '../Context/EnquiryContext';
 
 const NavLinks = () => {
-
-  // const Catalogue = [
-  //   { name: 'Paintings', route: '/catalogue/paintings' },
-  //   { name: 'Prints', route: '/catalogue/prints' },
-  //   { name: 'Merch', route: '/catalogue/merch' },
-  // ];
+  const { enquiries } = useEnquiry();
+  const count = enquiries.length;
 
   const links = [
-    { name: 'About Me', route: '#about' },
-    // { name: 'News', route: '#news' },
-    {name: 'Paintings', route: '#paintings'},
-    { name: 'Contact Me', route: '#contact' },
-    // { name: 'Catalogue', route: '#', submenu: true, sublinks: Catalogue },
+    { name: 'About Me', route: '/#about' },
+    { name: 'Paintings', route: '/#paintings' },
+    { name: 'Contact Me', route: '/#contact' },
   ];
 
   return (
@@ -26,24 +22,41 @@ const NavLinks = () => {
             <Link href={link.route}>
               <h1 className="navbar-text">{link.name}</h1>
             </Link>
-            {link.submenu && (
-              <div className='w-[70%] md:w-auto absolute top-10 md:top-20 hidden group-hover:block hover:block'>
-                <div className='w-full p-1 grid grid-rows gap-1'>
-                  {link.sublinks.map((mysublinks, subIndex) => (
-                    <div key={subIndex} className='p-1'>
-                      {/* <Link href={mysublinks.route}> */}
-                        <h1 className='navbar-text-options'>{mysublinks.name}</h1>
-                      {/* </Link> */}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
           </div>
         </div>
       ))}
+      <div>
+        <div className='md:cursor-pointer group'>
+          <Link href="/enquiries" style={{ position: 'relative', display: 'inline-block' }}>
+            <h1 className="navbar-text">
+              Enquiries
+              {count > 0 && (
+                <span style={{
+                  position: 'absolute',
+                  top: '-8px',
+                  right: '-18px',
+                  backgroundColor: '#de841e',
+                  color: 'white',
+                  borderRadius: '50%',
+                  width: '18px',
+                  height: '18px',
+                  fontSize: '11px',
+                  fontFamily: 'Poppins, sans-serif',
+                  fontWeight: 'bold',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  lineHeight: 1,
+                }}>
+                  {count}
+                </span>
+              )}
+            </h1>
+          </Link>
+        </div>
+      </div>
     </>
   );
-}
+};
 
 export default NavLinks;

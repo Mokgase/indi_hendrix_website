@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import styles from '../Style/paintings.module.css';
 import Script from 'next/script';
@@ -6,9 +7,12 @@ import Modal from '../Components/Modal';
 import Button from '../Components/Button';
 import cataloguePaintings from '../Utils/paintings';
 import Image from "next/image";
+import { useEnquiry } from '../Context/EnquiryContext';
 
 
 const Paintings = () => {
+  const { enquiries, addToEnquiry } = useEnquiry();
+
   return (
     <div id='paintings' className='w-full h-full'>
     <Head>
@@ -64,16 +68,12 @@ const Paintings = () => {
                           <p className={styles.year_of_painting}>{painting.status}</p>
                           <p className={styles.medium}>{painting.medium}</p>
                           <div className={styles.btn}>
-                            {/* <Button
-                              type="submit"
-                              value="Enqiure"
-                              text="Add to Enquiry"
-                              onClick={() =>{
-                                console.log("Adding:",painting.title);
-                                addToEnquiries(painting);
+                            <Button
+                              text={enquiries.some((p) => p.title === painting.title) ? 'Added ✓' : 'Enquire'}
+                              onClick={() => {
+                                addToEnquiry(painting);
                               }}
-                            /> */}
-                           
+                            />
                           </div>
                       </div>
                     </div>
