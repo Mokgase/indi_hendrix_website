@@ -44,6 +44,12 @@
   .roundedButton:hover{
     background-color:#E5E5E5;
   }
+
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
   
   .text{
     font-family: sans-serif;

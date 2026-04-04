@@ -207,6 +207,8 @@
     
     
     @media (min-width: 1025px) {
-    
-    
+      .btn {
+        display: flex;
+        justify-content: center;
+      }
     }

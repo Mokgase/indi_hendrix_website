@@ -84,7 +84,7 @@ const Enquiries = () => {
                 <div className={styles.itemInfo}>
                   <p className={styles.itemTitle}>{painting.title}</p>
                   <p className={styles.itemMeta}>
-                    {painting.size} &mdash; {painting.price || 'Price on request'} &mdash; {painting.year}
+                    {painting.size} &mdash; {painting.price} &mdash; {painting.year}
                   </p>
                   {painting.medium && (
                     <p className={styles.itemMeta}>{painting.medium}</p>

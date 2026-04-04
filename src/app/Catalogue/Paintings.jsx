@@ -69,12 +69,16 @@ const Paintings = () => {
                           <p className={styles.year_of_painting}>{painting.status}</p>
                           <p className={styles.medium}>{painting.medium}</p>
                           <div className={styles.btn}>
-                            <Button
-                              text={enquiries.some((p) => p.title === painting.title) ? 'Added ✓' : 'Enquire'}
-                              onClick={() => {
-                                addToEnquiry(painting);
-                              }}
-                            />
+                            {painting.status === 'SOLD' ? (
+                              <Button text="SOLD" disabled />
+                            ) : (
+                              <Button
+                                text={enquiries.some((p) => p.title === painting.title) ? 'Added ✓' : 'Enquire'}
+                                onClick={() => {
+                                  addToEnquiry(painting);
+                                }}
+                              />
+                            )}
                           </div>
                       </div>
                     </div>
