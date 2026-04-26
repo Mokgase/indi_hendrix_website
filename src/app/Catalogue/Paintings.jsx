@@ -8,10 +8,13 @@ import Button from '../Components/Button';
 import cataloguePaintings from '../Utils/paintings';
 import Image from "next/image";
 import { useEnquiry } from '../Context/EnquiryContext';
+import { useRouter } from 'next/navigation';
 
 
-const Paintings = () => {
+const Paintings = ({ limit }) => {
   const { enquiries, addToEnquiry } = useEnquiry();
+  const router = useRouter();
+  const displayed = limit ? cataloguePaintings.slice(0, limit) : cataloguePaintings;
 
   return (
     <div id='paintings' className='w-full h-full'>
@@ -35,7 +38,7 @@ const Paintings = () => {
         <h1 className={styles.h1}>PAINTINGS</h1>
         <hr className={styles.line} />
         <div className={styles.images_grid}>
-          {cataloguePaintings.map((painting, index) => (
+          {displayed.map((painting, index) => (
             <div key={index} className={styles.painting_card}>
               <Image
                 src={painting.src}
@@ -86,6 +89,11 @@ const Paintings = () => {
             </div>
           ))}
         </div>
+        {limit && (
+          <div className={styles.btn}>
+            <Button text="More Paintings" onClick={() => router.push('/paintings')} />
+          </div>
+        )}
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const NavLinks = () => {
 
   const links = [
     { name: 'About Me', route: '/#about' },
-    { name: 'Paintings', route: '/#paintings' },
+    { name: 'Paintings', route: '/paintings' },
     { name: 'Contact Me', route: '/#contact' },
   ];
 

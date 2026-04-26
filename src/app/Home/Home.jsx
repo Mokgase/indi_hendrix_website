@@ -54,7 +54,7 @@ const HomePage = () => {
     <br/>
     <br/>
     <About/>
-    <Paintings/>
+    <Paintings limit={3} />
     {/* <Prints/> */}
     {/* <Merch/> */}
     {/* <div className="container">
